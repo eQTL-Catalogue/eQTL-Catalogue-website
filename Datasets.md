@@ -15,6 +15,8 @@ order: 5
 
 
 [^1]: induced pluripotent stem cells
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzcyNTY4NTgsMTgyOTYyNTE1Ml19
+eyJoaXN0b3J5IjpbMTg3NjAwOTQ5MiwtMTg3NzI1Njg1OCwxOD
+I5NjI1MTUyXX0=
 -->
