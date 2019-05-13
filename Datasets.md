@@ -9,16 +9,12 @@ order: 5
 ## List of datasets included in the eQTL Catalogue
 
 
-| Study name | Cell types or tissues | Conditions | Expression Atlas | Donors | Samples || RNA data | Genotype data
-|---|---|---|---|---|---|---|---|
+| Study name | Cell types or tissues | Conditions | Donors | Samples | Expression Atlas | Raw expression data | Raw genotype data | Type |
+|---|---|---|---|---|---|---|---|---|
 [CEDAR](http://dx.doi.org/10.1038/s41467-018-04365-8) | T-cell, transverse_colon, monocyte, neutrophil, platelet, rectum, B-cell, ileum | | 2388 | 322 | | [E-MTAB-6667](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-6667) | [E-MTAB-6666](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-6666) | microarray
-
 [Fairfax_2012](http://dx.doi.org/10.1038/ng.2205) | B-cell | | 282 | 282 | | [E-MTAB-945](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-945) | [EGAD00010000144](https://www.ebi.ac.uk/ega/datasets/EGAD00010000144); [EGAD00010000520](https://www.ebi.ac.uk/ega/datasets/EGAD00010000520) | microarray
-
 [Fairfax_2014](http://dx.doi.org/10.1126/science.1246949) | monocyte | IFN24, LPS2, LPS24 | 1372 | 424 | | [E-MTAB-2232](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-2232) | [EGAD00010000144](https://www.ebi.ac.uk/ega/datasets/EGAD00010000144); [EGAD00010000520](https://www.ebi.ac.uk/ega/datasets/EGAD00010000520) | microarray
-
 [Kasela_2017](http://dx.doi.org/10.1371/journal.pgen.1006643) | T-cell | | 553 | 297 | | [GSE78840](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE78840) | Not deposited | microarray
-
 [Naranbhai_2015](http://dx.doi.org/10.1038/ncomms8545) | neutrophil | | 93 | 93 | | [E-MTAB-3536](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-3536) | [EGAD00010000144](https://www.ebi.ac.uk/ega/datasets/EGAD00010000144); [EGAD00010000520](https://www.ebi.ac.uk/ega/datasets/EGAD00010000520) | microarray
 
 [Alasoo_2018](http://dx.doi.org/10.1038/s41588-018-0046-7) | macrophage | IFNg, Salmonella, IFNg+Salmonella | 336 | 84 | | [EGAD00001003204](https://www.ebi.ac.uk/ega/datasets/EGAD00001003204); [PRJEB18997](https://www.ebi.ac.uk/ena/data/view/PRJEB18997) | [EGAD00010001147](https://www.ebi.ac.uk/ega/datasets/EGAD00010001147); [PRJEB11752](https://www.ebi.ac.uk/ena/data/view/PRJEB11752) | RNA-seq
@@ -44,6 +40,6 @@ order: 5
 [^1]: induced pluripotent stem cells
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5OTcxMjY1OSwxODc2MDA5NDkyLC0xOD
+eyJoaXN0b3J5IjpbLTcwNTM3NjIxMSwxODc2MDA5NDkyLC0xOD
 c3MjU2ODU4LDE4Mjk2MjUxNTJdfQ==
 -->
