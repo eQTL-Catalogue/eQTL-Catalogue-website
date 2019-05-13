@@ -19,8 +19,8 @@ order: 5
 [Alasoo_2018](http://dx.doi.org/10.1038/s41588-018-0046-7) | macrophage | IFNg, Salmonella, IFNg + Salmonella | 336 | 84 | | [EGAD00001003204](https://www.ebi.ac.uk/ega/datasets/EGAD00001003204); [PRJEB18997](https://www.ebi.ac.uk/ena/data/view/PRJEB18997) | [EGAD00010001147](https://www.ebi.ac.uk/ega/datasets/EGAD00010001147); [PRJEB11752](https://www.ebi.ac.uk/ena/data/view/PRJEB11752) | RNA-seq
 [BLUEPRINT](https://doi.org/10.1016/j.cell.2016.10.026) | monocyte, neutrophil, T-cell | | 554 | 197 | | [EGAD00001002671](https://www.ebi.ac.uk/ega/datasets/EGAD00001002671); [EGAD00001002674](https://www.ebi.ac.uk/ega/datasets/EGAD00001002674); [EGAD00001002675](https://www.ebi.ac.uk/ega/datasets/EGAD00001002675) | [EGAD00001002663](https://www.ebi.ac.uk/ega/datasets/EGAD00001002663) | RNA-seq
 [GENCORD](https://doi.org/10.7554/eLife.00523) | LCL, fibroblast, T-cell | | 560 | 195 | | [EGAD00001000425](https://www.ebi.ac.uk/ega/datasets/EGAD00001000425) | [EGAD00001000428](https://www.ebi.ac.uk/ega/datasets/EGAD00001000428) | RNA-seq
-[GEUVADIS](https://doi.org/10.1038/nature12531) | LCL | | 445 | 445 | | [E-GEUV-1](https://www.ebi.ac.uk/arrayexpress/experiments/E-GEUV-1) | 1000 Genomes | RNA-seq
-[HipSci](https://doi.org/10.1038/nature22403) | iPSC | | 322 | 322 | [E-MTAB-4748](https://www.ebi.ac.uk/gxa/experiments/E-MTAB-4748) | [EGAD00001003529](https://www.ebi.ac.uk/ega/datasets/EGAD00001003529); [PRJEB7388](https://www.ebi.ac.uk/ena/data/view/PRJEB7388) | [EGAD00010001147](https://www.ebi.ac.uk/ega/datasets/EGAD00010001147); [PRJEB11752](https://www.ebi.ac.uk/ena/data/view/PRJEB11752) | RNA-seq
+[GEUVADIS](https://doi.org/10.1038/nature12531) | LCL[^2] | | 445 | 445 | | [E-GEUV-1](https://www.ebi.ac.uk/arrayexpress/experiments/E-GEUV-1) | 1000 Genomes | RNA-seq
+[HipSci](https://doi.org/10.1038/nature22403) | iPSC[^1] | | 322 | 322 | [E-MTAB-4748](https://www.ebi.ac.uk/gxa/experiments/E-MTAB-4748) | [EGAD00001003529](https://www.ebi.ac.uk/ega/datasets/EGAD00001003529); [PRJEB7388](https://www.ebi.ac.uk/ena/data/view/PRJEB7388) | [EGAD00010001147](https://www.ebi.ac.uk/ega/datasets/EGAD00010001147); [PRJEB11752](https://www.ebi.ac.uk/ena/data/view/PRJEB11752) | RNA-seq
 [Nedelec_2016](http://dx.doi.org/10.1016/j.cell.2016.09.025) | macrophage | Listeria, Salmonella | 493 | 168 | | [GSE81046](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81046) | Not deposited | RNA-seq
 [Quach_2016](http://dx.doi.org/10.1016/j.cell.2016.09.024) | monocyte | LPS, Pam3CSK4, R848, IAV | 969 | 200 | | [EGAD00001002714](https://www.ebi.ac.uk/ega/datasets/EGAD00001002714) | [EGAD00010001131](https://www.ebi.ac.uk/ega/datasets/EGAD00010001131) | RNA-seq
 [Schwartzentruber_2018](http://dx.doi.org/10.1038/s41588-017-0005-8) | sensory_neuron | | 98 | 98 | | [EGAD00001003145](https://www.ebi.ac.uk/ega/datasets/EGAD00001003145); [PRJEB18630](https://www.ebi.ac.uk/ena/data/view/PRJEB18630) | [EGAD00010001147](https://www.ebi.ac.uk/ega/datasets/EGAD00010001147); [PRJEB11752](https://www.ebi.ac.uk/ena/data/view/PRJEB11752) | RNA-seq
@@ -28,8 +28,10 @@ order: 5
 [van_de_Bunt_2015](https://doi.org/10.1371/journal.pgen.1005694) | pancreatic_islet | | 117 | 117 | | [EGAD00001001601](https://www.ebi.ac.uk/ega/datasets/EGAD00001001601) | [EGAD00001001601](https://www.ebi.ac.uk/ega/datasets/EGAD00001001601) | RNA-seq
 
 [^1]: induced pluripotent stem cells
+[^2]: lymphoblastoid cell line
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTM5NDA5NjUsLTI2OTIyMzEzMSwxOD
-c2MDA5NDkyLC0xODc3MjU2ODU4LDE4Mjk2MjUxNTJdfQ==
+eyJoaXN0b3J5IjpbMTMxNjIyOTU2MywtMjExMzk0MDk2NSwtMj
+Y5MjIzMTMxLDE4NzYwMDk0OTIsLTE4NzcyNTY4NTgsMTgyOTYy
+NTE1Ml19
 -->
