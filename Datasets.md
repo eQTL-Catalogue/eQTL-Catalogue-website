@@ -11,10 +11,10 @@ order: 5
 
 | Study name | Cell types or tissues | Conditions | Expression Atlas | RNA data | Genotype data | Donors | Samples |
 |---|---|---|---|---|---|---|---|
-| [HipSci](https://doi.org/10.1038/nature22403) | iPSC[^1] | naive |  [E-MTAB-4748]([https://www.ebi.ac.uk/gxa/experiments/E-MTAB-4748/](https://www.ebi.ac.uk/gxa/experiments/E-MTAB-4748/) | EGAD00001003529; PRJEB7388 | EGAD00010001147; PRJEB11752 | 322 | 322 |
+| [HipSci](https://doi.org/10.1038/nature22403) | iPSC[^1] | naive |  [E-MTAB-4748](https://www.ebi.ac.uk/gxa/experiments/E-MTAB-4748/) | EGAD00001003529; PRJEB7388 | EGAD00010001147; PRJEB11752 | 322 | 322 |
 
 
 [^1]: induced pluripotent stem cells
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NzUyMTQyNl19
+eyJoaXN0b3J5IjpbMTgyOTYyNTE1Ml19
 -->
