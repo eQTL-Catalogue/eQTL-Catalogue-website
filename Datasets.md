@@ -16,7 +16,7 @@ order: 5
 [Fairfax_2014](http://dx.doi.org/10.1126/science.1246949) | monocyte | IFN24, LPS2, LPS24 | 1372 | 424 | | [E-MTAB-2232](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-2232) | [EGAD00010000144](https://www.ebi.ac.uk/ega/datasets/EGAD00010000144); [EGAD00010000520](https://www.ebi.ac.uk/ega/datasets/EGAD00010000520) | microarray
 [Kasela_2017](http://dx.doi.org/10.1371/journal.pgen.1006643) | T-cell | | 553 | 297 | | [GSE78840](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE78840) | Not deposited | microarray
 [Naranbhai_2015](http://dx.doi.org/10.1038/ncomms8545) | neutrophil | | 93 | 93 | | [E-MTAB-3536](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-3536) | [EGAD00010000144](https://www.ebi.ac.uk/ega/datasets/EGAD00010000144); [EGAD00010000520](https://www.ebi.ac.uk/ega/datasets/EGAD00010000520) | microarray
-[Alasoo_2018](http://dx.doi.org/10.1038/s41588-018-0046-7) | macrophage | IFNg, Salmonella, IFNg+Salmonella | 336 | 84 | | [EGAD00001003204](https://www.ebi.ac.uk/ega/datasets/EGAD00001003204); [PRJEB18997](https://www.ebi.ac.uk/ena/data/view/PRJEB18997) | [EGAD00010001147](https://www.ebi.ac.uk/ega/datasets/EGAD00010001147); [PRJEB11752](https://www.ebi.ac.uk/ena/data/view/PRJEB11752) | RNA-seq
+[Alasoo_2018](http://dx.doi.org/10.1038/s41588-018-0046-7) | macrophage | IFNg, Salmonella, IFNg + Salmonella | 336 | 84 | | [EGAD00001003204](https://www.ebi.ac.uk/ega/datasets/EGAD00001003204); [PRJEB18997](https://www.ebi.ac.uk/ena/data/view/PRJEB18997) | [EGAD00010001147](https://www.ebi.ac.uk/ega/datasets/EGAD00010001147); [PRJEB11752](https://www.ebi.ac.uk/ena/data/view/PRJEB11752) | RNA-seq
 [BLUEPRINT](https://doi.org/10.1016/j.cell.2016.10.026) | monocyte, neutrophil, T-cell | | 554 | 197 | | [EGAD00001002671](https://www.ebi.ac.uk/ega/datasets/EGAD00001002671); [EGAD00001002674](https://www.ebi.ac.uk/ega/datasets/EGAD00001002674); [EGAD00001002675](https://www.ebi.ac.uk/ega/datasets/EGAD00001002675) | [EGAD00001002663](https://www.ebi.ac.uk/ega/datasets/EGAD00001002663) | RNA-seq
 [GENCORD](https://doi.org/10.7554/eLife.00523) | LCL, fibroblast, T-cell | | 560 | 195 | | [EGAD00001000425](https://www.ebi.ac.uk/ega/datasets/EGAD00001000425) | [EGAD00001000428](https://www.ebi.ac.uk/ega/datasets/EGAD00001000428) | RNA-seq
 [GEUVADIS](https://doi.org/10.1038/nature12531) | LCL | | 445 | 445 | | [E-GEUV-1](https://www.ebi.ac.uk/arrayexpress/experiments/E-GEUV-1) | 1000 Genomes | RNA-seq
@@ -30,6 +30,6 @@ order: 5
 [^1]: induced pluripotent stem cells
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2OTIyMzEzMSwxODc2MDA5NDkyLC0xOD
-c3MjU2ODU4LDE4Mjk2MjUxNTJdfQ==
+eyJoaXN0b3J5IjpbLTIxMTM5NDA5NjUsLTI2OTIyMzEzMSwxOD
+c2MDA5NDkyLC0xODc3MjU2ODU4LDE4Mjk2MjUxNTJdfQ==
 -->
