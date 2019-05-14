@@ -28,13 +28,20 @@ order: 5
 [van_de_Bunt_2015](https://doi.org/10.1371/journal.pgen.1005694) | pancreatic_islet | | 117 | 117 | | [EGAD00001001601](https://www.ebi.ac.uk/ega/datasets/EGAD00001001601) | [EGAD00001001601](https://www.ebi.ac.uk/ega/datasets/EGAD00001001601) | RNA-seq
 
 ### Microarray datasets
+| Study name | Cell types or tissues | Conditions | Number of samples | Number of donors | Expression Atlas | Raw expression data | Raw genotype data |
+|---|---|---|---|---|---|---|---|
+[CEDAR](http://dx.doi.org/10.1038/s41467-018-04365-8) | CD4 and CD8 T-cells, monocytes, neutrophils, platelet, B-cells, ileum, rectum, transverse colon |  | 2388 | 322 |  | [E-MTAB-6667](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-6667) | [E-MTAB-6666](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-6666)
+[Fairfax_2012](http://dx.doi.org/10.1038/ng.2205) | B-cells |  | 282 | 282 |  | [E-MTAB-945](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-945) | [EGAD00010000144](https://www.ebi.ac.uk/ega/datasets/EGAD00010000144); [EGAD00010000520](https://www.ebi.ac.uk/ega/datasets/EGAD00010000520)
+[Fairfax_2014](http://dx.doi.org/10.1126/science.1246949) | monocytes | IFN24, LPS2, LPS24 | 1372 | 424 |  | [E-MTAB-2232](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-2232) | [EGAD00010000144](https://www.ebi.ac.uk/ega/datasets/EGAD00010000144); [EGAD00010000520](https://www.ebi.ac.uk/ega/datasets/EGAD00010000520)
+[Kasela_2017](http://dx.doi.org/10.1371/journal.pgen.1006643) | CD4 and CD8 T-cells |  | 553 | 297 |  | [GSE78840](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE78840) | Not deposited
+[Naranbhai_2015](http://dx.doi.org/10.1038/ncomms8545) | neutrophils |  | 93 | 93 |  | [E-MTAB-3536](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-3536) | [EGAD00010000144](https://www.ebi.ac.uk/ega/datasets/EGAD00010000144); [EGAD00010000520](https://www.ebi.ac.uk/ega/datasets/EGAD00010000520)
 
 
 [^1]: induced pluripotent stem cells
 [^2]: lymphoblastoid cell line
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA3OTM2OTg1LDEzMTYyMjk1NjMsLTIxMT
-M5NDA5NjUsLTI2OTIyMzEzMSwxODc2MDA5NDkyLC0xODc3MjU2
-ODU4LDE4Mjk2MjUxNTJdfQ==
+eyJoaXN0b3J5IjpbLTEwODkwMjg4OTMsNzA3OTM2OTg1LDEzMT
+YyMjk1NjMsLTIxMTM5NDA5NjUsLTI2OTIyMzEzMSwxODc2MDA5
+NDkyLC0xODc3MjU2ODU4LDE4Mjk2MjUxNTJdfQ==
 -->
