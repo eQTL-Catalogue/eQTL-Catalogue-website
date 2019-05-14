@@ -25,7 +25,7 @@ order: 5
 
 ### Microarray datasets
 
-| Study name | Cell types or tissues | Conditions | Number of samples | Number of donors | Expression Atlas | Raw expression data | Raw genotype data |
+| Study name | Cell types or tissues | Conditions | Samples | Donors | Expression Atlas | Raw expression data | Raw genotype data |
 |---|---|---|---|---|---|---|---|
 [CEDAR](http://dx.doi.org/10.1038/s41467-018-04365-8) | CD4 and CD8 T-cells, monocytes, neutrophils, platelet, B-cells, ileum, rectum, transverse colon |  | 2388 | 322 |  | [E-MTAB-6667](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-6667) | [E-MTAB-6666](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-6666)
 
@@ -39,7 +39,7 @@ order: 5
 [^2]: lymphoblastoid cell lines
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MTg3NjgwOSw4MjcyNzQ5LDcwNzkzNj
-k4NSwxMzE2MjI5NTYzLC0yMTEzOTQwOTY1LC0yNjkyMjMxMzEs
-MTg3NjAwOTQ5MiwtMTg3NzI1Njg1OCwxODI5NjI1MTUyXX0=
+eyJoaXN0b3J5IjpbMTQ3NzA2Nzk3LDgyNzI3NDksNzA3OTM2OT
+g1LDEzMTYyMjk1NjMsLTIxMTM5NDA5NjUsLTI2OTIyMzEzMSwx
+ODc2MDA5NDkyLC0xODc3MjU2ODU4LDE4Mjk2MjUxNTJdfQ==
 -->
