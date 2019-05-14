@@ -8,7 +8,7 @@ order: 5
 
 ## List of datasets included in the eQTL Catalogue
 
-
+### RNA-seq datasets
 | Study name | Cell types or tissues | Conditions | Donors | Samples | Expression Atlas | Raw expression data | Raw genotype data | Type |
 |---|---|---|---|---|---|---|---|---|
 [CEDAR](http://dx.doi.org/10.1038/s41467-018-04365-8) | T-cell, transverse_colon, monocyte, neutrophil, platelet, rectum, B-cell, ileum | | 2388 | 322 | | [E-MTAB-6667](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-6667) | [E-MTAB-6666](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-6666) | microarray
@@ -31,7 +31,7 @@ order: 5
 [^2]: lymphoblastoid cell line
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNjIyOTU2MywtMjExMzk0MDk2NSwtMj
-Y5MjIzMTMxLDE4NzYwMDk0OTIsLTE4NzcyNTY4NTgsMTgyOTYy
-NTE1Ml19
+eyJoaXN0b3J5IjpbNjU4MjEyNDQ0LDEzMTYyMjk1NjMsLTIxMT
+M5NDA5NjUsLTI2OTIyMzEzMSwxODc2MDA5NDkyLC0xODc3MjU2
+ODU4LDE4Mjk2MjUxNTJdfQ==
 -->
