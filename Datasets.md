@@ -15,7 +15,7 @@ order: 5
 [BLUEPRINT](https://doi.org/10.1016/j.cell.2016.10.026) | monocytes, neutrophils, T-cells |  | 554 | 197 |  | [EGAD00001002671](https://www.ebi.ac.uk/ega/datasets/EGAD00001002671); [EGAD00001002674](https://www.ebi.ac.uk/ega/datasets/EGAD00001002674); [EGAD00001002675](https://www.ebi.ac.uk/ega/datasets/EGAD00001002675) | [EGAD00001002663](https://www.ebi.ac.uk/ega/datasets/EGAD00001002663)
 [GENCORD](https://doi.org/10.7554/eLife.00523) | LCLs, fibroblasts, T-cells |  | 560 | 195 |  | [EGAD00001000425](https://www.ebi.ac.uk/ega/datasets/EGAD00001000425) | [EGAD00001000428](https://www.ebi.ac.uk/ega/datasets/EGAD00001000428)
 [GEUVADIS](https://doi.org/10.1038/nature12531) | LCLs |  | 445 | 445 |  | [E-GEUV-1](https://www.ebi.ac.uk/arrayexpress/experiments/E-GEUV-1) | 1000 Genomes
-[HipSci](https://doi.org/10.1038/nature22403) | iPSCs |  | 322 | 322 | [E-MTAB-4748](https://www.ebi.ac.uk/gxa/experiments/E-MTAB-4748) | [EGAD00001003529](https://www.ebi.ac.uk/ega/datasets/EGAD00001003529); [PRJEB7388](https://www.ebi.ac.uk/ena/data/view/PRJEB7388) | [EGAD00010001147](https://www.ebi.ac.uk/ega/datasets/EGAD00010001147); [PRJEB11752](https://www.ebi.ac.uk/ena/data/view/PRJEB11752)
+[HipSci](https://doi.org/10.1038/nature22403) | iPSCs[^1] |  | 322 | 322 | [E-MTAB-4748](https://www.ebi.ac.uk/gxa/experiments/E-MTAB-4748) | [EGAD00001003529](https://www.ebi.ac.uk/ega/datasets/EGAD00001003529); [PRJEB7388](https://www.ebi.ac.uk/ena/data/view/PRJEB7388) | [EGAD00010001147](https://www.ebi.ac.uk/ega/datasets/EGAD00010001147); [PRJEB11752](https://www.ebi.ac.uk/ena/data/view/PRJEB11752)
 [Nedelec_2016](http://dx.doi.org/10.1016/j.cell.2016.09.025) | macrophages | Listeria, Salmonella | 493 | 168 |  | [GSE81046](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81046) | Not deposited
 [Quach_2016](http://dx.doi.org/10.1016/j.cell.2016.09.024) | monocytes | LPS, Pam3CSK4, R848, IAV | 969 | 200 |  | [EGAD00001002714](https://www.ebi.ac.uk/ega/datasets/EGAD00001002714) | [EGAD00010001131](https://www.ebi.ac.uk/ega/datasets/EGAD00010001131)
 [Schwartzentruber_2018](http://dx.doi.org/10.1038/s41588-017-0005-8) | sensory neurons |  | 98 | 98 |  | [EGAD00001003145](https://www.ebi.ac.uk/ega/datasets/EGAD00001003145); [PRJEB18630](https://www.ebi.ac.uk/ena/data/view/PRJEB18630) | [EGAD00010001147](https://www.ebi.ac.uk/ega/datasets/EGAD00010001147); [PRJEB11752](https://www.ebi.ac.uk/ena/data/view/PRJEB11752)
@@ -33,10 +33,10 @@ order: 5
 
 
 [^1]: induced pluripotent stem cells
-[^2]: lymphoblastoid cell line
+[^2]: lymphoblastoid cell lines
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzU0OTcwMTksNzA3OTM2OTg1LDEzMT
-YyMjk1NjMsLTIxMTM5NDA5NjUsLTI2OTIyMzEzMSwxODc2MDA5
-NDkyLC0xODc3MjU2ODU4LDE4Mjk2MjUxNTJdfQ==
+eyJoaXN0b3J5IjpbMTQ2NDA1NTcyMSw3MDc5MzY5ODUsMTMxNj
+IyOTU2MywtMjExMzk0MDk2NSwtMjY5MjIzMTMxLDE4NzYwMDk0
+OTIsLTE4NzcyNTY4NTgsMTgyOTYyNTE1Ml19
 -->
