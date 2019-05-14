@@ -31,7 +31,6 @@ order: 5
 [Fairfax_2012](http://dx.doi.org/10.1038/ng.2205) | B-cells |  | 282 | 282 |  | [E-MTAB-945](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-945) | [EGAD00010000144](https://www.ebi.ac.uk/ega/datasets/EGAD00010000144); [EGAD00010000520](https://www.ebi.ac.uk/ega/datasets/EGAD00010000520)
 [Fairfax_2014](http://dx.doi.org/10.1126/science.1246949) | monocytes | IFN24, LPS2, LPS24 | 1372 | 424 |  | [E-MTAB-2232](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-2232) | [EGAD00010000144](https://www.ebi.ac.uk/ega/datasets/EGAD00010000144); [EGAD00010000520](https://www.ebi.ac.uk/ega/datasets/EGAD00010000520)
 [Kasela_2017](http://dx.doi.org/10.1371/journal.pgen.1006643) | CD4 and CD8 T-cells |  | 553 | 297 |  | [GSE78840](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE78840) | Not deposited
-
 [Naranbhai_2015](http://dx.doi.org/10.1038/ncomms8545) | neutrophils |  | 93 | 93 |  | [E-MTAB-3536](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-3536) | [EGAD00010000144](https://www.ebi.ac.uk/ega/datasets/EGAD00010000144); [EGAD00010000520](https://www.ebi.ac.uk/ega/datasets/EGAD00010000520)
 
 
@@ -39,8 +38,8 @@ order: 5
 [^2]: lymphoblastoid cell lines
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQzMzg5NTA1LDExODA2MTk1Myw4MjcyNz
-Q5LDcwNzkzNjk4NSwxMzE2MjI5NTYzLC0yMTEzOTQwOTY1LC0y
-NjkyMjMxMzEsMTg3NjAwOTQ5MiwtMTg3NzI1Njg1OCwxODI5Nj
-I1MTUyXX0=
+eyJoaXN0b3J5IjpbLTg0NTM3NTE0OSw5NDMzODk1MDUsMTE4MD
+YxOTUzLDgyNzI3NDksNzA3OTM2OTg1LDEzMTYyMjk1NjMsLTIx
+MTM5NDA5NjUsLTI2OTIyMzEzMSwxODc2MDA5NDkyLC0xODc3Mj
+U2ODU4LDE4Mjk2MjUxNTJdfQ==
 -->
