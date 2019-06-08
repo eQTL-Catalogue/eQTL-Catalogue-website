@@ -4,7 +4,7 @@ title: Project
 group: "in_local_navigation"
 order: 1
 ---
-![eQTLS in Ensembl][static/Human_BRCA2.png]
+![eQTLS in Ensembl](static/Human_BRCA2.png)
 
 The eQTL Catalogue aims to provide uniformly processed gene expression and splicing QTLs from all available public studies on human.
 

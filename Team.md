@@ -15,4 +15,4 @@ order: 7
 
 Funding
 
-![Open Targets][static/OT_logo.png]
+![Open Targets](static/OT_logo.png)
