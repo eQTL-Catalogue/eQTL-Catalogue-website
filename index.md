@@ -4,11 +4,15 @@ title: Project
 group: "in_local_navigation"
 order: 1
 ---
-![eQTLS in Ensembl](static/Human_BRCA2.png)
+
+What do we do?
+--------------
 
 The eQTL Catalogue aims to provide uniformly processed gene expression and splicing QTLs from all available public studies on human.
 
 Quantitative trait loci (QTL) are genomic loci where variation is significantly associated to a measurable phenotype. This resource focuses on expression cis-QTLs (cis-eQTL) where variants are associated expression levels of nearby genes, and on splicing QTLs (sQTL) where variants are associate to specific splicing events on nearby splice junctions
+
+![eQTLS in Ensembl](static/Human_BRCA2.png)
 
 They have proven particularly useful to (statistical) geneticists exploring GWAS results, who wish to associate non-coding GWAS SNP associations to a molecular mechanism, such as perturbed gene expression or splicing.
 
