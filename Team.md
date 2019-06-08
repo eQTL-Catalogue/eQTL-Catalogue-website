@@ -13,6 +13,7 @@ order: 7
 - Irene Papatheodorou
 - Daniel Zerbino
 
-Funding
+Funding 
+-------
 
 ![Open Targets](static/OT_logo.png)
