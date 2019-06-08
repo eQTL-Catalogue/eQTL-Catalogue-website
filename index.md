@@ -26,4 +26,4 @@ You can download our results via FTP in CSV and HDF5 formats, or query part of o
 Let us know what you think! 
 ---------------------------
 
-Feel free to send us your feedback at [eqtl-catalogue@@ebi.ac.uk](mailto:eqtl-catalogue@ebi.ac.uk)
+Feel free to send us your feedback at [eqtl-catalogue@ebi.ac.uk](mailto:eqtl-catalogue@ebi.ac.uk)
