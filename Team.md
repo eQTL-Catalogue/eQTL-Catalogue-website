@@ -8,6 +8,8 @@ order: 7
 Team
 ----
 
+Contact us all at [eqtl-catalogue@ebi.ac.uk](mailto:eqtl-catalogue@ebi.ac.uk):
+
 - Kaur Alasoo
 - Tony Burdett
 - Dan Gaffney
