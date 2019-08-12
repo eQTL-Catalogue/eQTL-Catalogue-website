@@ -6,7 +6,7 @@ order: 2
 ---
 
 ## Pipelines
-Quick links to data analysis pipelines:
+### Quick links to the data analysis pipelines:
 - RNA-seq quantification: [kerimoff/rnaseq](https://github.com/kerimoff/rnaseq)
 - Normalisation and QC: [kerimoff/qtl_norm_qc](https://github.com/kerimoff/qtl_norm_qc)
 - Genotype QC: [kauralasoo/popAssign](https://github.com/kauralasoo/popAssign)
@@ -53,6 +53,7 @@ In association testing, we use the following parameters:
 - Use first six principal components from the genotype data and first six principal components from the molecular trait data as covariates.
 - Test all variants that are +/- 1Mb from the start of the gene (as defined in Ensembl).
 
-
-
+## Reference annotatons
+- [Metadata for all molecular traits](http://doi.org/10.5281/zenodo.3366011)
+- [Reference transcriptome annotations used for analysis](https://zenodo.org/record/3366280#.XVG9q5MzaXU)
 
