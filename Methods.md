@@ -5,10 +5,17 @@ group: "in_local_navigation"
 order: 2
 ---
 
+## Pipelines
+Quick links to data analysis pipelines:
+- RNA-seq quantification: [kerimoff/rnaseq](https://github.com/kerimoff/rnaseq)
+- Normalisation and QC: [kerimoff/qtl_norm_qc](https://github.com/kerimoff/qtl_norm_qc)
+- Genotype QC: [kauralasoo/popAssign](https://github.com/kauralasoo/popAssign)
+- Association testing: [kerimoff/qtlmap](https://github.com/kerimoff/qtlmap)
+
 ## Methods
 
 ### Gene expression and splicing quantification
-The gene expresson and splicing quantification pipelines is available from the [kerimoff/rnaseq](https://github.com/kerimoff/rnaseq) GitHub repository.The pipeline is based on the [nf-core/rnaseq](https://github.com/nf-core/rnaseq) pipeline that we have modified to include the following quantification methods:
+The gene expresson and splicing quantification pipelines is available from the [kerimoff/rnaseq](https://github.com/kerimoff/rnaseq) GitHub repository. The pipeline is based on the [nf-core/rnaseq](https://github.com/nf-core/rnaseq) pipeline that we have modified to include the following quantification methods:
 - **gene counts**: RNA-seq reads were aligned to the GRCh38 reference genome using [HISAT2](https://ccb.jhu.edu/software/hisat2/) and reads overlapping [GENCODE](https://www.gencodegenes.org/) v30 transcript annoations were counted using [featureCounts](http://subread.sourceforge.net/).
 - **exon counts**: [DEXSeq](https://bioconductor.org/packages/release/bioc/html/DEXSeq.html) was used to convert GENCODE v30 transcript annotations to non-overlapping exon annotations. Reads overlapping exons were counted  using [featureCounts](http://subread.sourceforge.net/).
 - **transcript usage**: [Salmon](https://combine-lab.github.io/salmon/) was used to estimate the expression levels of all annotated transcripts in [GENCODE](https://www.gencodegenes.org/) v30.
@@ -25,9 +32,15 @@ Briefly, we use the following normalisation strategies:
 - **transcript event usage**: Transcript event usage is calculated by dividing the transcript event expression estimates (TPM units) by the total expression of all events of the same class (promoters, splicing events, 3'end events) within the same gene. Transcript event usage values (0...1 scale) are further standardised using inverse normal transformation. 
 
 ### Genotype imputation and quality control
-Sample content
+We perform the following QC steps:
+- Check that the genotypes in the VCF file are concordant with the observed RNA-seq reads using qtltools mbv command. Correct sample swaps and discard any samples with missing genotypes or high level of cross-contamination.
 
 ### Association testing
 
-The association testing pipeline is available from [kerimoff/qtlmap](https://github.com/kerimoff/qtlmap) GitHub repository. 
+The association testing pipeline is available from [kerimoff/qtlmap](https://github.com/kerimoff/qtlmap) GitHub repository. The main analysis steps are:
+- Perform principal component analysis (PCA) of the genotype data with [PLINK 1.9](https://www.cog-genomics.org/plink/1.9/). 
+- Perfrom PCA analysis of the molecular trait data (prcomp function in R).
+- Perform assocation testing with [QTLtools](https://qtltools.github.io/qtltools/) 
+
+
 
