@@ -32,10 +32,15 @@ Briefly, we use the following normalisation strategies:
 - **transcript event usage**: Transcript event usage is calculated by dividing the transcript event expression estimates (TPM units) by the total expression of all events of the same class (promoters, splicing events, 3'end events) within the same gene. Transcript event usage values (0...1 scale) are further standardised using inverse normal transformation. 
 
 ### Genotype imputation and quality control
+For most datasets, we performed basic QC on the raw genotypes calls from genotyping arrays after which we imputed the remaining genotypes using [Michigan Imputation Server](https://imputationserver.sph.umich.edu/index.html#!) and [1000 Genomes Phase 3](https://imputationserver.readthedocs.io/en/latest/reference-panels/) reference panel. 
+
+#### Before imputation
+- Exclude all variants with minor allele frequence (MAF) < 0.01, Hardy-Weinberg equilibrium p-value < 1e-6 and that were missing in more than 5% of the samples.
+
 #### After imputation
 - Convert all genetic variants to GRCh38 coordinates with [CrossMap](http://crossmap.sourceforge.net/).
 - Exclude variants with minor allele frequence (MAF) < 0.01 and imputation quality score (R2) < 0.4.
-- Check that the genotypes in the VCF file are concordant with the observed RNA-seq reads using [qtltools mbv](https://doi.org/10.1093/bioinformatics/btx074) command. Correct sample swaps and discard any samples with missing genotypes or high level of cross-contamination.
+- Check that the genotypes in the VCF file are concordant with those detected from the RNA-seq data using [qtltools mbv](https://doi.org/10.1093/bioinformatics/btx074) command. Correct sample swaps and discard any samples with missing genotypes or high levels of cross-contamination.
 
 ### Association testing
 
