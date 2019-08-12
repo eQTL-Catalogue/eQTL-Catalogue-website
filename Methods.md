@@ -32,15 +32,22 @@ Briefly, we use the following normalisation strategies:
 - **transcript event usage**: Transcript event usage is calculated by dividing the transcript event expression estimates (TPM units) by the total expression of all events of the same class (promoters, splicing events, 3'end events) within the same gene. Transcript event usage values (0...1 scale) are further standardised using inverse normal transformation. 
 
 ### Genotype imputation and quality control
-We perform the following QC steps:
-- Check that the genotypes in the VCF file are concordant with the observed RNA-seq reads using qtltools mbv command. Correct sample swaps and discard any samples with missing genotypes or high level of cross-contamination.
+#### After imputation
+- Convert all genetic variants to GRCh38 coordinates with [CrossMap](http://crossmap.sourceforge.net/).
+- Exclude variants with minor allele frequence (MAF) < 0.01 and imputation quality score (R2) < 0.4.
+- Check that the genotypes in the VCF file are concordant with the observed RNA-seq reads using [qtltools mbv](https://doi.org/10.1093/bioinformatics/btx074) command. Correct sample swaps and discard any samples with missing genotypes or high level of cross-contamination.
 
 ### Association testing
 
 The association testing pipeline is available from [kerimoff/qtlmap](https://github.com/kerimoff/qtlmap) GitHub repository. The main analysis steps are:
 - Perform principal component analysis (PCA) of the genotype data with [PLINK 1.9](https://www.cog-genomics.org/plink/1.9/). 
 - Perfrom PCA analysis of the molecular trait data (prcomp function in R).
-- Perform assocation testing with [QTLtools](https://qtltools.github.io/qtltools/) 
+- Perform assocation testing with [QTLtools](https://qtltools.github.io/qtltools/).
+
+In association testing, we use the following parameters:
+- Use first six principal components from the genotype data and first six principal components from the molecular trait data as covariates.
+- Test all variants that are +/- 1Mb from the start of the gene (as defined in Ensembl).
+
 
 
 
