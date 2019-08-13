@@ -5,7 +5,7 @@ RUN chown -R jekyll:jekyll /srv/jekyll
 RUN rm -rf /srv/jekyll/_site
 RUN jekyll build
 
-FROM nginx:alpine
+FROM nginx:1.17.2-alpine
 
 COPY docker-assets/nginx.conf /etc/nginx/nginx.conf
 COPY docker-assets/default.conf /etc/nginx/conf.d/default.conf
