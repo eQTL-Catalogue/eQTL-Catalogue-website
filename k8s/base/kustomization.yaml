@@ -1,0 +1,4 @@
+commonLabels:
+  app: ensembl-eqtl
+resources:
+  - deployment.yaml
