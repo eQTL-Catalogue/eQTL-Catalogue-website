@@ -15,7 +15,7 @@ See our [tutorial](https://github.com/EBISPOT/SumStats/blob/eqtls/querying_hdf5_
 API
 ---
 
-TODO
+You can also query slices of eQTL summary statistics (by study and/or gene and/or SNP) using our [RESTful API]({{ site.domain }}{{ site.baseurl }}/api/docs).
 
 Expression Atlas
 ----------------
