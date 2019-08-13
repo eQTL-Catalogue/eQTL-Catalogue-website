@@ -18,7 +18,7 @@ ga_code: "UA-XXXXX-X"
 # root repo for this project
 repo: "https://github.com/ebiwd/EBI-Pattern-library"
 source: .
-destination: ./_site
+destination: ./_site/eqtl/
 exclude:
   [
     node_modules,
