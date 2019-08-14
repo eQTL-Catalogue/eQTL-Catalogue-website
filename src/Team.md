@@ -8,16 +8,21 @@ order: 7
 Team
 ----
 
-Contact us all at [eqtl-catalogue@ebi.ac.uk](mailto:eqtl-catalogue@ebi.ac.uk):
+Contact us all at [eqtl-catalogue@ebi.ac.uk](mailto:eqtl-catalogue@ebi.ac.uk).
 
+### University of Tartu
 - Kaur Alasoo
-- Tony Burdett
-- Dan Gaffney
-- James Hayhurst
 - Nurlan Kerimov
+
+### European Bioinformatics Institute
+- Tony Burdett
+- James Hayhurst
 - Jonathan Manning
 - Irene Papatheodorou
 - Daniel Zerbino
+
+### Wellcome Sanger Institute
+- Dan Gaffney
 
 Funding 
 -------
