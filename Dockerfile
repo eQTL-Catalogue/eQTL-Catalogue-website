@@ -1,9 +1,9 @@
 FROM jekyll/builder:pages as builder
 
 COPY ./src /srv/jekyll
-RUN chown -R jekyll:jekyll /srv/jekyll
-RUN rm -rf /srv/jekyll/_site
-RUN jekyll build
+RUN chown -R jekyll:jekyll /srv/jekyll; \
+    rm -rf /srv/jekyll/_site; \
+    jekyll build -d /srv/jekyll/_site
 
 FROM nginx:1.17.2-alpine
 
