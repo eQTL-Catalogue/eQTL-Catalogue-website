@@ -79,3 +79,4 @@ $ export IMAGE_NAME="dockerhub.ebi.ac.uk/ebiwd/ensembl-eqtl:2019-05-26"
 $ docker build . -t $IMAGE_NAME
 $ kubectl kustomize k8s/overlays/caas/ | envsubst '$IMAGE_NAME' | kubectl --namespace=static-sites-dev apply -f -
 ```
+
