@@ -22,6 +22,9 @@ order: 5
 [Schwartzentruber_2018](http://dx.doi.org/10.1038/s41588-017-0005-8) | sensory neurons |  | 98 | 98 |  | [EGAD00001003145](https://www.ebi.ac.uk/ega/datasets/EGAD00001003145); [PRJEB18630](https://www.ebi.ac.uk/ena/data/view/PRJEB18630) | [EGAD00010001147](https://www.ebi.ac.uk/ega/datasets/EGAD00010001147); [PRJEB11752](https://www.ebi.ac.uk/ena/data/view/PRJEB11752)
 [TwinsUK](http://dx.doi.org/10.1038/ng.3162) | fat, LCLs[^2], skin, blood |  | 1364 | 433 |  | [EGAD00001001086](https://www.ebi.ac.uk/ega/datasets/EGAD00001001086); [EGAD00001001087](https://www.ebi.ac.uk/ega/datasets/EGAD00001001087); [EGAD00001001088](https://www.ebi.ac.uk/ega/datasets/EGAD00001001088); [EGAD00001001089](https://www.ebi.ac.uk/ega/datasets/EGAD00001001089) | Not deposited
 [van_de_Bunt_2015](https://doi.org/10.1371/journal.pgen.1005694) | pancreatic islets |  | 117 | 117 |  | [EGAD00001001601](https://www.ebi.ac.uk/ega/datasets/EGAD00001001601) | [EGAD00001001601](https://www.ebi.ac.uk/ega/datasets/EGAD00001001601)
+[Schmiedel_2018](https://doi.org/10.1016/j.cell.2018.10.022) | 15 immune cell types | αCD3+αCD28 (4h) | 1331 | 91 |  | [phs001703.v1.p1](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001703.v1.p1) | [phs001703.v1.p1](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001703.v1.p1)
+[BrainSeq](https://doi.org/10.1038/s41593-018-0197-y) | brain (DLPFC[^3]) |  | 484 | 484 |  | [syn12299750](https://www.synapse.org/#!Synapse:syn12299750) | [phs000979.v2.p2](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000979.v2.p2)
+[ROSMAP](https://doi.org/10.1038/nn.4632) | brain (DLPFC[^3]) |  | 576 | 576 |  | [syn3219045](https://www.synapse.org/#!Synapse:syn3219045) | [syn3219045](https://www.synapse.org/#!Synapse:syn3219045)
 
 ### Microarray datasets
 
@@ -36,6 +39,7 @@ order: 5
 
 [^1]: induced pluripotent stem cells
 [^2]: lymphoblastoid cell lines
+[^3]: dorsolateral prefrontal cortex
 
 ## Citation
 In addition to citing the eQTL Catalogue resource, please also cite the orginal publications producing the raw data and aknowledge the funding that they received. 
