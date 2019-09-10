@@ -25,6 +25,7 @@ order: 5
 [Schmiedel_2018](https://doi.org/10.1016/j.cell.2018.10.022) | 15 immune cell types | αCD3+αCD28 (4h) | 1331 | 91 |  | [phs001703.v1.p1](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001703.v1.p1) | [phs001703.v1.p1](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001703.v1.p1)
 [BrainSeq](https://doi.org/10.1038/s41593-018-0197-y) | brain (DLPFC[^3]) |  | 484 | 484 |  | [syn12299750](https://www.synapse.org/#!Synapse:syn12299750) | [phs000979.v2.p2](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000979.v2.p2)
 [ROSMAP](https://doi.org/10.1038/nn.4632) | brain (DLPFC[^3]) |  | 576 | 576 |  | [syn3219045](https://www.synapse.org/#!Synapse:syn3219045) | [syn3219045](https://www.synapse.org/#!Synapse:syn3219045)
+[Lepik_2017](https://doi.org/10.1371/journal.pcbi.1005766) | blood |  | 491 | 491 |  | Not deposited | Not deposited
 
 ### Microarray datasets
 
