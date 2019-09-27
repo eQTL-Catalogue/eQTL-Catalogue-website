@@ -10,7 +10,7 @@ order: 5
 
 ### RNA-seq datasets
 
-| Dataset | Cell types or tissues | Conditions | Donors | Samples | Expression Atlas | Raw expression data | Raw genotype data | QC report |
+| Dataset | Cell types or tissues | Conditions | Samples | Donors | Expression Atlas | Raw expression data | Raw genotype data | QC report |
 |---|---|---|---|---|---|---|---|---|
 [Alasoo_2018](http://dx.doi.org/10.1038/s41588-018-0046-7) | macrophages | IFNg, Salmonella, IFNg + Salmonella | 336 | 84 |  | [EGAD00001003204](https://www.ebi.ac.uk/ega/datasets/EGAD00001003204); [PRJEB18997](https://www.ebi.ac.uk/ena/data/view/PRJEB18997) | [EGAD00010001147](https://www.ebi.ac.uk/ega/datasets/EGAD00010001147); [PRJEB11752](https://www.ebi.ac.uk/ena/data/view/PRJEB11752) | [link](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/QC_reports/Alasoo_2018_QC_report.html)
 [BLUEPRINT](https://doi.org/10.1016/j.cell.2016.10.026) | monocytes, neutrophils, T-cells |  | 554 | 197 |  | [EGAD00001002671](https://www.ebi.ac.uk/ega/datasets/EGAD00001002671); [EGAD00001002674](https://www.ebi.ac.uk/ega/datasets/EGAD00001002674); [EGAD00001002675](https://www.ebi.ac.uk/ega/datasets/EGAD00001002675) | [EGAD00001002663](https://www.ebi.ac.uk/ega/datasets/EGAD00001002663) | [1](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/QC_reports/BLUEPRINT_SE_QC_report.html),[2](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/QC_reports/BLUEPRINT_PE_QC_report.html)
@@ -29,13 +29,13 @@ order: 5
 
 ### Microarray datasets
 
-| Dataset | Cell types or tissues | Conditions | Samples | Donors | Expression Atlas | Raw expression data | Raw genotype data |
-|---|---|---|---|---|---|---|---|
+| Dataset | Cell types or tissues | Conditions | Samples | Donors | Expression Atlas | Raw expression data | Raw genotype data | QC report |
+|---|---|---|---|---|---|---|---|---|
 [CEDAR](http://dx.doi.org/10.1038/s41467-018-04365-8) | CD4 and CD8 T-cells, monocytes, neutrophils, platelet, B-cells, ileum, rectum, transverse colon |  | 2388 | 322 |  | [E-MTAB-6667](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-6667) | [E-MTAB-6666](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-6666)| [link](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/QC_reports/CEDAR_QC_report.html)
 [Fairfax_2012](http://dx.doi.org/10.1038/ng.2205) | B-cells |  | 282 | 282 |  | [E-MTAB-945](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-945) | [EGAD00010000144](https://www.ebi.ac.uk/ega/datasets/EGAD00010000144); [EGAD00010000520](https://www.ebi.ac.uk/ega/datasets/EGAD00010000520) | [link](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/QC_reports/Fairfax_2012_QC_report.html)
-[Fairfax_2014](http://dx.doi.org/10.1126/science.1246949) | monocytes | IFN24, LPS2, LPS24 | 1372 | 424 | [E-MTAB-2232](https://www.ebi.ac.uk/gxa/experiments/E-MTAB-2232) | [E-MTAB-2232](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-2232) | [EGAD00010000144](https://www.ebi.ac.uk/ega/datasets/EGAD00010000144); [EGAD00010000520](https://www.ebi.ac.uk/ega/datasets/EGAD00010000520) | | [link](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/QC_reports/Fairfax_2014_QC_report.html)
+[Fairfax_2014](http://dx.doi.org/10.1126/science.1246949) | monocytes | IFN24, LPS2, LPS24 | 1372 | 424 | [E-MTAB-2232](https://www.ebi.ac.uk/gxa/experiments/E-MTAB-2232) | [E-MTAB-2232](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-2232) | [EGAD00010000144](https://www.ebi.ac.uk/ega/datasets/EGAD00010000144); [EGAD00010000520](https://www.ebi.ac.uk/ega/datasets/EGAD00010000520) | [link](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/QC_reports/Fairfax_2014_QC_report.html)
 [Kasela_2017](http://dx.doi.org/10.1371/journal.pgen.1006643) | CD4 and CD8 T-cells |  | 553 | 297 |  | [GSE78840](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE78840) | Not deposited| [link](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/QC_reports/Kasela_2017_QC_report.html)
-[Naranbhai_2015](http://dx.doi.org/10.1038/ncomms8545) | neutrophils |  | 93 | 93 |  | [E-MTAB-3536](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-3536) | [EGAD00010000144](https://www.ebi.ac.uk/ega/datasets/EGAD00010000144); [EGAD00010000520](https://www.ebi.ac.uk/ega/datasets/EGAD00010000520) | | [link](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/QC_reports/Naranbhai_2015_QC_report.html)
+[Naranbhai_2015](http://dx.doi.org/10.1038/ncomms8545) | neutrophils |  | 93 | 93 |  | [E-MTAB-3536](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-3536) | [EGAD00010000144](https://www.ebi.ac.uk/ega/datasets/EGAD00010000144); [EGAD00010000520](https://www.ebi.ac.uk/ega/datasets/EGAD00010000520) |  [link](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/QC_reports/Naranbhai_2015_QC_report.html)
 
 
 [^1]: induced pluripotent stem cells
