@@ -42,7 +42,7 @@ order: 5
 [^2]: lymphoblastoid cell lines
 [^3]: dorsolateral prefrontal cortex
 
-## Citation
+## Acknowledgements
 In addition to citing the eQTL Catalogue resource, please also cite the orginal publications producing the raw data and aknowledge the funding that they received. 
 
 ### BLUEPRINT
