@@ -63,9 +63,12 @@ In addition to citing the eQTL Catalogue resource, please also cite the orginal 
 
 **Funding statement**: "TwinsUK is funded by the Wellcome Trust, Medical Research Council, European Union, the National Institute for Health Research (NIHR)-funded BioResource, Clinical Research Facility and Biomedical Research Centre based at Guy’s and St Thomas’ NHS Foundation Trust in partnership with King’s College London."
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NTM3NTE0OSw5NDMzODk1MDUsMTE4MD
-YxOTUzLDgyNzI3NDksNzA3OTM2OTg1LDEzMTYyMjk1NjMsLTIx
-MTM5NDA5NjUsLTI2OTIyMzEzMSwxODc2MDA5NDkyLC0xODc3Mj
-U2ODU4LDE4Mjk2MjUxNTJdfQ==
--->
+#### BrainSeq
+**Publication**: "Jaffe, Andrew E., et al. "Developmental and genetic regulation of the human cortex transcriptome illuminate schizophrenia pathogenesis." Nat Neurosci 21.8 (2018): 1117-1125."
+
+**Funding statement:** "This research was supported by the Intramural Research Program of the NIMH(NCT00001260, 900142)."
+
+#### Schmiedel_2018
+**Publication**: "Schmiedel, Benjamin J., et al. "Impact of genetic polymorphisms on human immune cell gene expression." Cell 175.6 (2018): 1701-1715."
+
+**Funding statement:** "This work was funded by the William K. Bowes Jr Foundation (P.V.) and NIH grants R24 AI108564 (P.V., B.P., A.R., M.K.), S10RR027366 (BD FACSAria II), and S10OD016262 (Illumina HiSeq 2500).
