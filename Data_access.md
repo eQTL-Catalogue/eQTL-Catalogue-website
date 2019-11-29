@@ -8,7 +8,7 @@ order: 4
 FTP Downloads
 -------------
 
-On our [FTP site](ftp://ftp.ebi.ac.uk/pub/databases/eQTL) you will find both tab-delimited flatfiles as well as HDF5 files. 
+On our [FTP site](ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL) you will find both tab-delimited flatfiles as well as HDF5 files. 
 
 See our [tutorial](https://github.com/EBISPOT/SumStats/blob/eqtls/querying_hdf5_basics.ipynb) on reading the HDF5 files.
 
