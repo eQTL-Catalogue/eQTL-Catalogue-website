@@ -6,8 +6,9 @@ COPY ./src /tmp
 RUN chown -R jekyll:jekyll /tmp; \
     jekyll build
 
-FROM nginx:1.17.2-alpine
+FROM nginxinc/nginx-unprivileged:1.17.2-alpine
 
-COPY docker-assets/nginx.conf /etc/nginx/nginx.conf
 COPY docker-assets/default.conf /etc/nginx/conf.d/default.conf
 COPY --from=builder /tmp/_site /usr/share/nginx/html
+
+USER 101

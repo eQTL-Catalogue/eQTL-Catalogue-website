@@ -1,7 +1,17 @@
-jekyll:
-  image: jekyll/builder:pages
-  command: jekyll serve --watch --incremental
-  ports:
-    - 4000:4000
-  volumes:
-    - ./src:/srv/jekyll
+version: "2"
+
+services:
+  jekyll:
+    image: jekyll/builder:pages
+    volumes: 
+      - ./src:/srv/jekyll
+    entrypoint: 'jekyll build --watch'
+    ports:
+      - '4000:4000'
+  nginx:
+    build: .
+    volumes:
+      - ./src/_site/:/usr/share/nginx/html/
+    ports:
+      - '8000:8080'
+

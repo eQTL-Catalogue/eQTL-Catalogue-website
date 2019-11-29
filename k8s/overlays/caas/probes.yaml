@@ -9,15 +9,15 @@ spec:
         - name: ensembl-eqtl
           readinessProbe:
             httpGet:
-              path: /eqtl/
-              port: 80
+              path: /eqtl
+              port: 8080
             initialDelaySeconds: 5
             timeoutSeconds: 1
             periodSeconds: 15
           livenessProbe:
             httpGet:
-              path: /eqtl/
-              port: 80
+              path: /eqtl
+              port: 8080
             initialDelaySeconds: 15
             timeoutSeconds: 1
             periodSeconds: 15
