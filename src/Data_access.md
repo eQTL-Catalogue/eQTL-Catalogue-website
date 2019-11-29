@@ -20,4 +20,4 @@ You can also query slices of eQTL summary statistics (by study and/or gene and/o
 Expression Atlas
 ----------------
 
-On the [dataset tab]({{ site.domain }}{{ site.baseurl }}./Datasets/), follow the links to Expression Atlas studies.
+On the [dataset tab]({{ site.domain }}{{ site.baseurl }}/Datasets/), follow the links to Expression Atlas studies.

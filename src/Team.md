@@ -8,7 +8,7 @@ order: 7
 Team
 ----
 
-Contact us all at [eqtl-catalogue@ebi.ac.uk](mailto:eqtl-catalogue@ebi.ac.uk).
+Contact us all at [eqtl-catalogue@ebi.ac.uk](mailto:eqtlcatalogue@ebi.ac.uk).
 
 ### University of Tartu
 - Kaur Alasoo
