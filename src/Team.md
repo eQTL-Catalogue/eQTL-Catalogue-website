@@ -16,6 +16,7 @@ Contact us all at [eqtlcatalogue@ebi.ac.uk](mailto:eqtlcatalogue@ebi.ac.uk).
 
 ### European Bioinformatics Institute
 - Tony Burdett
+- Simon Jupp
 - James Hayhurst
 - Jonathan Manning
 - Irene Papatheodorou
