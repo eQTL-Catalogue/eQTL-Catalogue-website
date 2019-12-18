@@ -29,6 +29,6 @@ Funding
 
 <div style="border-bottom-style:none !important">
 <a href="https://www.opentargets.org/">
-<img src="static/OT_logo.png">
+<img src="{{ site.baseurl }}/static/OT_logo.png">
 </a>
 </div>
