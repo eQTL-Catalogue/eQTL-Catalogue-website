@@ -27,4 +27,6 @@ Contact us all at [eqtl-catalogue@ebi.ac.uk](mailto:eqtlcatalogue@ebi.ac.uk).
 Funding 
 -------
 
+<div style="border-bottom-style:none !important">
 [![Open Targets](static/OT_logo.png)](https://www.opentargets.org/)
+</div>
