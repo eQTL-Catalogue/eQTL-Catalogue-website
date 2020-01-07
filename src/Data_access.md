@@ -17,6 +17,8 @@ API
 
 You can also query slices of eQTL summary statistics (by study and/or gene and/or SNP) using our [RESTful API]({{ site.domain }}{{ site.baseurl }}/api-docs).
 
+See our [tutorial](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/scripts/eQTL_API_usecase.html) on performing colocalisation analysis with GWAS Catalog and eQTL Catalogue APIs in R. 
+
 Expression Atlas
 ----------------
 
