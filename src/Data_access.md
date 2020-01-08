@@ -10,7 +10,7 @@ FTP Downloads
 
 On our [FTP site](ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL) you will find both tab-delimited flatfiles as well as HDF5 files. 
 
-The URLs of all individual tab-delimited files together with metadata can be found [here](https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/tabix/tabix_all_ftp_pathes.tsv).
+The URLs of all individual tab-delimited files together with metadata can be found [here](https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/tabix/tabix_ftp_paths.tsv).
 
 See our [tutorial](https://github.com/EBISPOT/SumStats/blob/eqtls/querying_hdf5_basics.ipynb) on reading the HDF5 files.
 
