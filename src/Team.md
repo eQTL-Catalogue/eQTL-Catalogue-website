@@ -11,7 +11,7 @@ Team
 Contact us all at [eqtlcatalogue@ebi.ac.uk](mailto:eqtlcatalogue@ebi.ac.uk).
 
 ### University of Tartu
-- Kaur Alasoo
+- [Kaur Alasoo](https://kauralasoo.github.io/)
 - Nurlan Kerimov
 
 ### European Bioinformatics Institute
@@ -23,7 +23,7 @@ Contact us all at [eqtlcatalogue@ebi.ac.uk](mailto:eqtlcatalogue@ebi.ac.uk).
 - Daniel Zerbino
 
 ### Wellcome Sanger Institute
-- Dan Gaffney
+- [Daniel Gaffney](https://www.sanger.ac.uk/science/groups/gaffney-group)
 
 Funding 
 -------
