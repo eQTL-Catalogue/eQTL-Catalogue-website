@@ -9,7 +9,7 @@ order: 2
 ### Quick links to the data analysis pipelines:
 - RNA-seq quantification: [kerimoff/rnaseq](https://github.com/kerimoff/rnaseq)
 - Normalisation and QC: [kerimoff/qtl_norm_qc](https://github.com/kerimoff/qtl_norm_qc)
-- Genotype QC: [kauralasoo/genotype_qc](https://github.com/kauralasoo/genotype_qc)
+- Genotype QC: [eQTL-Catalogue/genotype_qc](https://github.com/eQTL-Catalogue/genotype_qc)
 - Association testing: [kerimoff/qtlmap](https://github.com/kerimoff/qtlmap)
 
 ## Methods
