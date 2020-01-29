@@ -20,7 +20,7 @@ Contact us all at [eqtlcatalogue@ebi.ac.uk](mailto:eqtlcatalogue@ebi.ac.uk).
 - James Hayhurst
 - Jonathan Manning
 - Irene Papatheodorou
-- Daniel Zerbino
+- [Daniel Zerbino](https://www.ebi.ac.uk/about/people/daniel-zerbino)
 
 ### Wellcome Sanger Institute
 - [Daniel Gaffney](https://www.sanger.ac.uk/science/groups/gaffney-group)
