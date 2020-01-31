@@ -43,7 +43,7 @@ order: 5
 [^3]: dorsolateral prefrontal cortex
 
 ## Acknowledgements
-In addition to citing the eQTL Catalogue resource, please also cite the orginal publications producing the raw data and aknowledge the funding that they received. 
+If you find the eQTL Catalogue useful in your research, please cite the eQTL Catalogue [[flagship paper]](https://doi.org/10.1101/2020.01.29.924266) as well as the orginal publications producing the raw data and aknowledge the funding that they received. 
 
 ### BLUEPRINT
 **Publication**: Chen, Lu, et al. "Genetic drivers of epigenetic and transcriptional variation in human immune cells." Cell 167.5 (2016): 1398-1414.
