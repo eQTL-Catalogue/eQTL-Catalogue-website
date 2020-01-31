@@ -13,7 +13,7 @@ order: 2
 - Association testing: [eQTL-Catalogue/qtlmap](https://github.com/eQTL-Catalogue/qtlmap)
 
 ## Methods
-Detailed description of the methods can be found in our [[flagship paper]](https://doi.org/10.1101/2020.01.29.924266). Below is a short overview of the main analysis steps.
+Detailed description of the methods can be found in our [flagship paper](https://doi.org/10.1101/2020.01.29.924266). Below is a short overview of the main analysis steps.
 
 
 ### Gene expression and splicing quantification
@@ -34,7 +34,7 @@ Briefly, we use the following normalisation strategies:
 - **txrevise event usage**: Promoter, splice junction and 3ʹ end event usage is calculated by dividing the event expression estimates (TPM units) by the total expression of all events of the same class (promoters, splicing events, 3ʹ end events) within the same gene. Txrevise event usage values (0...1 scale) are further standardised using inverse normal transformation. 
 
 ### Genotype imputation and quality control
-For most datasets, we performed [[basic QC]](https://github.com/eQTL-Catalogue/genotype_qc) on the raw genotypes calls from genotyping arrays after which we imputed the remaining genotypes using [Michigan Imputation Server](https://imputationserver.sph.umich.edu/index.html#!) and [1000 Genomes Phase 3](https://imputationserver.readthedocs.io/en/latest/reference-panels/) reference panel. 
+For most datasets, we performed [basic QC](https://github.com/eQTL-Catalogue/genotype_qc) on the raw genotypes calls from genotyping arrays after which we imputed the remaining genotypes using [Michigan Imputation Server](https://imputationserver.sph.umich.edu/index.html#!) and [1000 Genomes Phase 3](https://imputationserver.readthedocs.io/en/latest/reference-panels/) reference panel. 
 
 #### Before imputation
 - Exclude all variants with minor allele frequence (MAF) < 0.01, Hardy-Weinberg equilibrium p-value < 1e-6 and that were missing in more than 5% of the samples.
