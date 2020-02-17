@@ -12,14 +12,15 @@ Contact us all at [eqtlcatalogue@ebi.ac.uk](mailto:eqtlcatalogue@ebi.ac.uk).
 
 ### University of Tartu
 - [Kaur Alasoo](https://kauralasoo.github.io/)
-- Nurlan Kerimov
+- [Nurlan Kerimov](https://github.com/kerimoff)
 
 ### European Bioinformatics Institute
-- Tony Burdett
-- Simon Jupp
-- James Hayhurst
-- Jonathan Manning
-- Irene Papatheodorou
+- [Tony Burdett](https://www.ebi.ac.uk/about/people/tony-burdett)
+- [Simon Jupp](https://www.ebi.ac.uk/about/people/simon-jupp)
+- [James Hayhurst](https://www.ebi.ac.uk/about/people/james-hayhurst)
+- [Jonathan Manning](https://www.ebi.ac.uk/about/people/jonathan-manning)
+- [Irene Papatheodorou](https://www.ebi.ac.uk/about/people/irene-papatheodorou)
+- [Helen Parkinson](https://www.ebi.ac.uk/about/people/helen-parkinson)
 - [Daniel Zerbino](https://www.ebi.ac.uk/about/people/daniel-zerbino)
 
 ### Wellcome Sanger Institute
