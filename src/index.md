@@ -18,7 +18,7 @@ They have proven particularly useful to (statistical) geneticists exploring GWAS
 
 To compute them we process public datasets with our [uniform pipeline]({{ site.domain }}{{ site.baseurl }}/Methods/). We currently provide access to [15 published datasets]({{ site.domain }}{{ site.baseurl }}/Datasets/), with an aim to cover all accessible published datasets on human.
 
-A complete presentation can be found on our [webinar](https://www.ebi.ac.uk/training/online/course/eqtl-catalogue-compendium-uniformly-processed-human-expression-and-splicing-qtls).
+A complete explanation can be found in our [preprint](https://www.biorxiv.org/content/10.1101/2020.01.29.924266v1) and a presentation on our [webinar](https://www.ebi.ac.uk/training/online/course/eqtl-catalogue-compendium-uniformly-processed-human-expression-and-splicing-qtls).
 
 Access our results
 ------------------
