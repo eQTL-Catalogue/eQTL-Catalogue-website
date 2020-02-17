@@ -5,8 +5,8 @@ group: "in_local_navigation"
 order: 7
 ---
 
-Team
-----
+Main team
+---------
 
 Contact us all at [eqtl-catalogue@ebi.ac.uk](mailto:eqtlcatalogue@ebi.ac.uk).
 
@@ -23,6 +23,11 @@ Contact us all at [eqtl-catalogue@ebi.ac.uk](mailto:eqtlcatalogue@ebi.ac.uk).
 
 ### Wellcome Sanger Institute
 - Dan Gaffney
+
+Contributors
+------------
+
+- [Brian Schilder](https://github.com/bschilder)
 
 Funding 
 -------
