@@ -22,12 +22,17 @@ Instead of downloading the full tab-delimited files from the FTP, you can also u
 tabix ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL/csv/BLUEPRINT/ge/BLUEPRINT_ge_monocyte.all.tsv.gz 20:46120612-46120613
 ```
 
-API
----
+REST API
+--------
 
 You can also query slices of eQTL summary statistics (by study and/or gene and/or SNP) using our [RESTful API]({{ site.domain }}{{ site.baseurl }}/api-docs).
 
 See our [tutorial](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/scripts/eQTL_API_usecase.html) on performing colocalisation analysis with GWAS Catalog and eQTL Catalogue APIs in R. 
+
+R Wrapper
+---------
+
+[Brian Schilder](https://github.com/bschilder) generously contributed this [R wrapper](https://github.com/RajLabMSSM/catalogueR) to access eQTL Catalogue data from R. More information can be found on his [preprint](https://www.biorxiv.org/content/10.1101/2020.01.29.924266v1).
 
 Expression Atlas
 ----------------
