@@ -32,7 +32,7 @@ See our [tutorial](http://htmlpreview.github.io/?https://github.com/kauralasoo/e
 R Wrapper
 ---------
 
-[Brian Schilder](https://github.com/bschilder) generously contributed this [R wrapper](https://github.com/RajLabMSSM/catalogueR) to access eQTL Catalogue data from R. More information can be found on his [preprint](https://www.biorxiv.org/content/10.1101/2020.01.29.924266v1).
+[Brian Schilder](https://github.com/bschilder) generously contributed this [R wrapper](https://github.com/RajLabMSSM/catalogueR) to access eQTL Catalogue data from R.
 
 Expression Atlas
 ----------------
