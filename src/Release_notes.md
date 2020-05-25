@@ -5,11 +5,11 @@ group: "in_local_navigation"
 order: 8
 ---
 
-# Release notes
+## Release notes
 
-## eQTL Catalogue release 1 - January 2020
+### eQTL Catalogue release 1 - January 2020
 
-### Data statistics
+#### Data statistics
 
 This release contains uniformly processessed eQTL summary statistics from 19 datasets:
 * 5 microarray datasets containing 4,631 samples.
