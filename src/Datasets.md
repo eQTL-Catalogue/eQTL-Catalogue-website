@@ -37,6 +37,12 @@ order: 5
 [Kasela_2017](http://dx.doi.org/10.1371/journal.pgen.1006643) | CD4 and CD8 T-cells |  | 553 | 297 |  | [GSE78840](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE78840) | Not deposited| [link](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/QC_reports/Kasela_2017_QC_report.html)
 [Naranbhai_2015](http://dx.doi.org/10.1038/ncomms8545) | neutrophils |  | 93 | 93 |  | [E-MTAB-3536](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-3536) | [EGAD00010000144](https://www.ebi.ac.uk/ega/datasets/EGAD00010000144); [EGAD00010000520](https://www.ebi.ac.uk/ega/datasets/EGAD00010000520) |  [link](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/QC_reports/Naranbhai_2015_QC_report.html)
 
+### Imported datasets
+Although we generally prefer to reprocess all datasets incldued in the eQTL Cataloge, we have also made original summary statistics available from a small number large-scale eQTL studies. These summary statistis can be accessed using both our REST API and FTP and follow the same general format. However, these studies have used independent gene expression quantification and genotype quality control workflows, so some systematics differences in eQTL results are expected.
+
+| Dataset | Cell types or tissues | Conditions | Samples | Donors | Quantification | Raw expression data | Raw genotype data |
+|---|---|---|---|---|---|---|---|---|
+[GTEx_v8](http://dx.doi.org/10.1038/s41467-018-04365-8) | 54 tissues |  | 17382 | 948 | gene expression | [phs000424.v8.p2](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000424.v8.p2) | [[phs000424.v8.p2](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000424.v8.p2) |
 
 [^1]: induced pluripotent stem cells
 [^2]: lymphoblastoid cell lines
