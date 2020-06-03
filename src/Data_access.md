@@ -5,7 +5,7 @@ group: "in_local_navigation"
 order: 4
 ---
 
-## Data dccess
+## Data access
 
 ### FTP downloads
 
@@ -35,16 +35,15 @@ You can also query slices of eQTL summary statistics (by study and/or gene and/o
 * Using the [catalogueR](https://github.com/RajLabMSSM/catalogueR) R package developed by [Brian Schilder](https://github.com/bschilder) to access summary statistics.
 
 ## Frequently Asked Questions
-### Which allele is the effect allele? 
+#### Which allele is the effect allele? 
 The ALT allele is always the effect allele. See [here](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/blob/master/tabix/Columns.md) for the full description of the summary statistics data fields. 
 
-### How are multiple rsids handled?
+#### How are multiple rsids handled?
 We store one rsid per line in our summary staistics files. Thus, if a single variant maps to multiple rsids in dbSNP v151, then summary statistics from this variant will be duplicated over multiple rows. This simplifies querying by rsid, but we recommend duplicate entires before any downstream analysis (e.g. colocalisation) as is done in this [tutorial](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/scripts/tabix_use_case.html). 
 
-### How are multi-allelic variants handled?
+#### How are multi-allelic variants handled?
 Multi-allelic variants are included in the analysis, but they are split over multiple and have unique ALT alleles and variant IDs (but might have shared rsids).
 
 ## Expression Atlas
-----------------
 
 On the [dataset tab]({{ site.domain }}{{ site.baseurl }}/Datasets/), follow the links to Expression Atlas studies.
