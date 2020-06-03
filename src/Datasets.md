@@ -40,7 +40,7 @@ order: 5
 ### Imported datasets
 Although we generally prefer to reprocess all datasets incldued in the eQTL Catalogue, we have also made original summary statistics available from a small number large-scale eQTL studies. These summary statistis can be accessed using both our REST API and FTP and follow the same general format. However, these studies have used independent gene expression quantification and genotype quality control workflows, so some systematic differences in eQTL results are expected.
 
-| Dataset | Cell types or tissues | Conditions | Samples | Donors | Quantification | Raw expression data | Raw genotype data | Data source |
+| Dataset | Cell types or tissues | Conditions | Samples | Donors | Quantification | Raw expression data | Raw genotype data | Summary statistics source |
 |---|---|---|---|---|---|---|---|---|---|
 [GTEx_v8](http://dx.doi.org/10.1038/s41467-018-04365-8) | 49 tissues |  | 17382 | 948 | gene expression | [phs000424.v8.p2](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000424.v8.p2) | [[phs000424.v8.p2](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000424.v8.p2) | [Google Cloud](gs://gtex-resources/GTEx_Analysis_v8_QTLs/GTEx_Analysis_v8_eQTL_all_associations) |
 
