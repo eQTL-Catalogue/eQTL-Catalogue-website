@@ -5,36 +5,46 @@ group: "in_local_navigation"
 order: 4
 ---
 
-FTP Downloads
--------------
+## Data dccess
+
+### FTP downloads
 
 On our [FTP site](ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL) you will find both tab-delimited flatfiles as well as HDF5 files. 
 
-The URLs of all individual tab-delimited files together with metadata can be found [here](https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/tabix/tabix_ftp_paths.tsv).
+The URLs of all individual tab-delimited files together with metadata can be found [here](https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/tabix/).
 
 See our [tutorial](https://github.com/EBISPOT/SumStats/blob/eqtls/querying_hdf5_basics.ipynb) on reading the HDF5 files.
 
-Tabix
------
+### Tabix
+
 Instead of downloading the full tab-delimited files from the FTP, you can also use [tabix](http://www.htslib.org/doc/tabix.1.html) to access specific regions from those files. For example, to fetch the association between [rs4239702](http://www.ensembl.org/Homo_sapiens/Variation/Explore?r=20:46120112-46121112;v=rs4239702;vdb=variation;vf=528871173) variant and all genes in the +/- 1Mb window in the monocyte samples from the BLUEPRINT study, you can use the following command:
 
 ```console
 tabix ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL/csv/BLUEPRINT/ge/BLUEPRINT_ge_monocyte.all.tsv.gz 20:46120612-46120613
 ```
 
-REST API
---------
+### RESTful API
 
 You can also query slices of eQTL summary statistics (by study and/or gene and/or SNP) using our [RESTful API]({{ site.domain }}{{ site.baseurl }}/api-docs).
 
-See our [tutorial](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/scripts/eQTL_API_usecase.html) on performing colocalisation analysis with GWAS Catalog and eQTL Catalogue APIs in R. 
+## Tutorials
 
-R Wrapper
----------
+* [Accessing summary statistics from HDF5 files in Python](https://github.com/EBISPOT/SumStats/blob/eqtls/querying_hdf5_basics.ipynb)
+* [Using tabix in R to fetch summary statistics and perfrom colocalisation](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/scripts/tabix_use_case.html)
+* [Using the REST API in R to fetch summary statistics and peform colocalisation](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/scripts/eQTL_API_usecase.html)
+* Using the [catalogueR](https://github.com/RajLabMSSM/catalogueR) R package developed by [Brian Schilder](https://github.com/bschilder) to access summary statistics.
 
-[Brian Schilder](https://github.com/bschilder) generously contributed this [R wrapper](https://github.com/RajLabMSSM/catalogueR) to access eQTL Catalogue data from R.
+## Frequently Asked Questions
+### Which allele is the effect allele? 
+The ALT allele is always the effect allele. See [here](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/blob/master/tabix/Columns.md) for the full description of the summary statistics data fields. 
 
-Expression Atlas
+### How are multiple rsids handled?
+We store one rsid per line in our summary staistics files. Thus, if a single variant maps to multiple rsids in dbSNP v151, then summary statistics from this variant will be duplicated over multiple rows. This simplifies querying by rsid, but we recommend duplicate entires before any downstream analysis (e.g. colocalisation) as is done in this [tutorial](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/scripts/tabix_use_case.html). 
+
+### How are multi-allelic variants handled?
+Multi-allelic variants are included in the analysis, but they are split over multiple and have unique ALT alleles and variant IDs (but might have shared rsids).
+
+## Expression Atlas
 ----------------
 
 On the [dataset tab]({{ site.domain }}{{ site.baseurl }}/Datasets/), follow the links to Expression Atlas studies.
