@@ -8,8 +8,8 @@ order: 2
 ## Pipelines
 ### Quick links to the data analysis pipelines:
 - RNA-seq quantification: [eQTL-Catalogue/rnaseq](https://github.com/eQTL-Catalogue/rnaseq)
-- Normalisation and QC: [eQTL-Catalogue/qtl_norm_qc](https://github.com/eQTL-Catalogue/qtl_norm_qc)
-- Genotype QC: [eQTL-Catalogue/genotype_qc](https://github.com/eQTL-Catalogue/genotype_qc)
+- Gene expression QC and normalisation: [eQTL-Catalogue/qcnorm](https://github.com/eQTL-Catalogue/qcnorm)
+- Genotype QC and imputation: [eQTL-Catalogue/genimpute](https://github.com/eQTL-Catalogue/genimpute)
 - Association testing: [eQTL-Catalogue/qtlmap](https://github.com/eQTL-Catalogue/qtlmap)
 
 ## Methods
