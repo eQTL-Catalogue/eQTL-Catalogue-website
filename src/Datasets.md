@@ -26,6 +26,7 @@ order: 5
 [BrainSeq](https://doi.org/10.1038/s41593-018-0197-y) | brain (DLPFC[^3]) |  | 484 | 484 |  | [syn12299750](https://www.synapse.org/#!Synapse:syn12299750) | [phs000979.v2.p2](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000979.v2.p2) | [link](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/QC_reports/BrainSeq_QC_report.html)
 [ROSMAP](https://doi.org/10.1038/nn.4632) | brain (DLPFC[^3]) |  | 576 | 576 |  | [syn3219045](https://www.synapse.org/#!Synapse:syn3219045) | [syn3219045](https://www.synapse.org/#!Synapse:syn3219045) | [link](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/QC_reports/ROSMAP_QC_report.html)
 [Lepik_2017](https://doi.org/10.1371/journal.pcbi.1005766) | blood |  | 491 | 491 |  | Not deposited | Not deposited | [link](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/QC_reports/Lepik_2017_QC_report.html)
+[FUSION](https://doi.org/10.1073/pnas.1814263116) | adipose, muscle |  | 559 | 302 |  | [phs001048.v2.p1](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001048.v2.p1) | [phs001048.v2.p1](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001048.v2.p1) | [link](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/QC_reports/FUSION_QC_report.html)
 
 ### Microarray datasets
 
