@@ -21,6 +21,11 @@ Instead of downloading the full tab-delimited files from the FTP, you can also u
 tabix ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL/csv/BLUEPRINT/ge/BLUEPRINT_ge_monocyte.all.tsv.gz 20:46120612-46120613
 ```
 
+You can also use curl to access column names:
+```console
+curl -s ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL/csv/BLUEPRINT/ge/BLUEPRINT_ge_monocyte.all.tsv.gz | zcat | head -n 1
+```
+
 ### RESTful API
 
 You can query slices of eQTL summary statistics (by study and/or gene and/or SNP) using our [RESTful API]({{ site.domain }}{{ site.baseurl }}/api-docs).
@@ -37,7 +42,7 @@ You can query slices of eQTL summary statistics (by study and/or gene and/or SNP
 The ALT allele is always the effect allele. See [here](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/blob/master/tabix/Columns.md) for the full description of the summary statistics data fields. 
 
 #### How are multiple rsids handled?
-We store one rsid per line in our summary staistics files. Thus, if a single variant maps to multiple rsids in dbSNP v151, then summary statistics from this variant will be duplicated over multiple rows. This simplifies querying by rsid, but we recommend duplicate entires before any downstream analysis (e.g. colocalisation) as is done in this [tutorial](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/scripts/tabix_use_case.html). 
+We store one rsid per line in our summary staistics files. Thus, if a single variant maps to multiple rsids in dbSNP v151, then summary statistics from this variant will be duplicated over multiple rows. This simplifies querying by rsid, but we recommend removing duplicate entires before any downstream analysis (e.g. colocalisation) as is done in this [tutorial](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/scripts/tabix_use_case.html). 
 
 #### How are multi-allelic variants handled?
 Multi-allelic variants are included in the analysis, but they are split over multiple and have unique ALT alleles and variant IDs (but might have the same rsids).
