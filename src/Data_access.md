@@ -33,8 +33,8 @@ You can query slices of eQTL summary statistics (by study and/or gene and/or SNP
 ## Tutorials
 
 * [Accessing summary statistics from HDF5 files in Python](https://github.com/EBISPOT/SumStats/blob/eqtls/querying_hdf5_basics.ipynb)
-* [Using tabix in R to fetch summary statistics and perform colocalisation](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/scripts/tabix_use_case.html)
-* [Using the REST API in R to fetch summary statistics and perform colocalisation](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/scripts/eQTL_API_usecase.html)
+* [Using tabix in R to fetch summary statistics and perform colocalisation](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/tutorials/tabix_use_case.html)
+* [Using the REST API in R to fetch summary statistics and perform colocalisation](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/tutorials/eQTL_API_usecase.html)
 * Using the [catalogueR](https://github.com/RajLabMSSM/catalogueR) R package developed by [Brian Schilder](https://github.com/bschilder) to access summary statistics.
 
 ## Frequently Asked Questions (FAQ)
@@ -42,7 +42,7 @@ You can query slices of eQTL summary statistics (by study and/or gene and/or SNP
 The ALT allele is always the effect allele. See [here](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/blob/master/tabix/Columns.md) for the full description of the summary statistics data fields. 
 
 #### How are multiple rsids handled?
-We store one rsid per line in our summary staistics files. Thus, if a single variant maps to multiple rsids in dbSNP v151, then summary statistics from this variant will be duplicated over multiple rows. This simplifies querying by rsid, but we recommend removing duplicate entires before any downstream analysis (e.g. colocalisation) as is done in this [tutorial](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/scripts/tabix_use_case.html). 
+We store one rsid per line in our summary staistics files. Thus, if a single variant maps to multiple rsids in dbSNP v151, then summary statistics from this variant will be duplicated over multiple rows. This simplifies querying by rsid, but we recommend removing duplicate entires before any downstream analysis (e.g. colocalisation) as is done in this [tutorial](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/tutorials/tabix_use_case.html). 
 
 #### How are multi-allelic variants handled?
 Multi-allelic variants are included in the analysis, but they are split over multiple and have unique ALT alleles and variant IDs (but might have the same rsids).
