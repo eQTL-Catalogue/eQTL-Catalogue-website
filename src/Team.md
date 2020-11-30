@@ -13,6 +13,7 @@ Contact us all at [eqtlcatalogue@ebi.ac.uk](mailto:eqtlcatalogue@ebi.ac.uk).
 ### University of Tartu
 - [Kaur Alasoo](https://kauralasoo.github.io/)
 - [Nurlan Kerimov](https://github.com/kerimoff)
+- [Kateryna Peikova](https://www.linkedin.com/in/peikovakateryna)
 
 ### European Bioinformatics Institute
 - [Tony Burdett](https://www.ebi.ac.uk/about/people/tony-burdett)
