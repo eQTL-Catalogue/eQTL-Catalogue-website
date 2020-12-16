@@ -23,7 +23,7 @@ order: 8
 * TwinsUK - Re-imputed genotype data to 1000 Genomes Phase 3.
 * BLUEPRINT - Replaced genotype data with a more recent imputation from [Kundu et al, 2020](https://doi.org/10.1101/2020.01.15.907436).
 
-Information about all datasets can be found on the [Datasets]({{site.domain}}{{site.baseurl}}/Datasets) tab.
+Information about all datasets can be found on the [Studies]({{site.domain}}{{site.baseurl}}/Studies) tab.
 
 
 ### eQTL Catalogue release 2 - May 2020
