@@ -30,6 +30,14 @@ curl -s ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL/csv/BLUEPRINT/ge/BLUEPRINT_g
 
 You can query slices of eQTL summary statistics (by study and/or gene and/or SNP) using our [RESTful API]({{ site.domain }}{{ site.baseurl }}/api-docs).
 
+### Fine mapping results
+We have also calculated fine mapped eQTL credible sets using the SuSiE model. ELIXIR-Estonia has developed an interactive [credible set broweser](https://elixir.ut.ee/eqtl/), where you can quickly check if your variant of interest is likely to be a causal eQTL variant. 
+
+#### Examples
+* Inflammatory bowel disease lead variant at the PDGFB locus: [rs2413583](https://elixir.ut.ee/eqtl/?rsid=rs2413583)
+
+Complete fine mapping results can be downloaded from our [FTP](ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL/credible_sets/).
+
 ## Tutorials
 
 * [Accessing summary statistics from HDF5 files in Python](https://github.com/EBISPOT/SumStats/blob/eqtls/querying_hdf5_basics.ipynb)
