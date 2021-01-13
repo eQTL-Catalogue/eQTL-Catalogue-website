@@ -14,6 +14,7 @@ Contact us all at [eqtlcatalogue@ebi.ac.uk](mailto:eqtlcatalogue@ebi.ac.uk).
 - [Kaur Alasoo](https://kauralasoo.github.io/)
 - [Nurlan Kerimov](https://github.com/kerimoff)
 - [Kateryna Peikova](https://www.linkedin.com/in/peikovakateryna)
+- [Ivan Kuzmin](https://www.etis.ee/CV/inkuzmin/est?lang=ENG&tabId=CV_ENG)
 
 ### European Bioinformatics Institute
 - [Tony Burdett](https://www.ebi.ac.uk/about/people/tony-burdett)
