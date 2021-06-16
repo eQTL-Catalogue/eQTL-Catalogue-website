@@ -35,7 +35,7 @@ order: 5
 [CommonMind](https://doi.org/10.1038/s41597-019-0183-6) | brain (DLPFC[^3]) |  | 590 | 590 |  | [syn2759792](https://www.synapse.org/#!Synapse:syn2759792) | [syn2759792](https://www.synapse.org/#!Synapse:syn2759792) | [link]({{ site.domain }}{{ site.baseurl }}/static/QC_reports/CommonMind_QC_report.html)
 [Braineac2](https://doi.org/10.1038/s41467-020-14483-x) | brain (putamen, substantia nigra) |  | 167 | 110 |  | Not deposited | Not deposited | [link]({{ site.domain }}{{ site.baseurl }}/static/QC_reports/Braineac2_QC_report.html)
 [Steinberg_2020](https://doi.org/10.1038/s41467-021-21593-7) | synovium, cartilage |  | 210 | 73 | | [EGAD00001005215](https://www.ebi.ac.uk/ega/datasets/EGAD00001005215), [EGAD00001003355](https://www.ebi.ac.uk/ega/datasets/EGAD00001003355) | [EGAD00010001746](https://www.ebi.ac.uk/ega/datasets/EGAD00010001746) | [link]({{ site.domain }}{{ site.baseurl }}/static/QC_reports/Steinberg_2020_QC_report.html)
-[Young_2019](https://doi.org/10.1101/2019.12.20.874099) | microglia |  | 104 | 104 | | [EGAD00001005736](https://www.ebi.ac.uk/ega/datasets/EGAD00001005736) | [EGAD00001005736](https://www.ebi.ac.uk/ega/datasets/EGAD00001005736) | [link]({{ site.domain }}{{ site.baseurl }}/static/QC_reports/Young_2019_QC_report.html)
+[Young_2019](https://doi.org/10.1038/s41588-021-00875-2) | microglia |  | 104 | 104 | | [EGAD00001005736](https://www.ebi.ac.uk/ega/datasets/EGAD00001005736) | [EGAD00001005736](https://www.ebi.ac.uk/ega/datasets/EGAD00001005736) | [link]({{ site.domain }}{{ site.baseurl }}/static/QC_reports/Young_2019_QC_report.html)
 
 
 ### Microarray studies

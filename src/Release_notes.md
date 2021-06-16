@@ -7,6 +7,25 @@ order: 8
 
 ## Release notes
 
+### eQTL Catalogue release 4 - June 2021
+
+We have added eight new studies, icreasing the total number of samples to 30,619 and the number of unique donors to 7,182. The number of distinct cell types and tissues has increased to 74. The novel cell types and tissues in this release are microglia, hepatocyte-like cells, placenta, synovium and cartiliage.
+
+#### New studies
+
+* Young_2019 - microglia from 104 individuals 
+* CommonMind - one brain region (DLPFC) from 590 individuals
+* Braineac2 - two brain regions (putamen and substantia nigra) from 106 individuals
+* Steinberg_2020 - synovium and cartilage tissues from 70 individuals
+* CAP - LCLs from 148 individuals
+* Peng_2019 - Placenta from 149 individuals
+* PhLiPS - induced pluripotent stem cells and hepatocyte-like cells from 87 individuals
+* iPSCORE - induced pluripotent stem cells from 107 individuals
+
+#### Updated studies
+
+* GTEx - The study name GTEx now corresponds to uniformly re-processed summary statistics from GTEx v8. The imported GTEx v8 official eQTL summary statistics also remain available under the study name GTEx_v8. 
+
 ### eQTL Catalogue release 3.1 - December 2020
 
 * In release 3 (October 2020) of the eQTL Catalogue, the allele count (AC) and allele number (AN) fields of the tabix-indexed summary statistics files were accidentally swapped. This error has now been corrected and the tabix-indexed files on the FTP server have been replaced with the correct ones. The data on the REST API was not affected. If you used the AN field in your colocalisation analysis to infer sample size then this error could have led to decreased power to detect colocalisations and we would recommend you to re-run your analysis. 
