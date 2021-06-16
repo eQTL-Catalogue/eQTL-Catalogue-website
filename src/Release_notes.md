@@ -9,7 +9,7 @@ order: 8
 
 ### eQTL Catalogue release 4 - June 2021
 
-We have added eight new studies, icreasing the total number of samples to 30,619 and the number of unique donors to 7,182. The number of distinct cell types and tissues has increased to 74. The novel cell types and tissues in this release are microglia, hepatocyte-like cells, placenta, synovium and cartiliage.
+We have added eight new studies, increasing the total number of samples to 30,619 and the number of unique donors to 7,182. The number of distinct cell types and tissues has increased to 74. The novel cell types and tissues in this release are microglia, hepatocyte-like cells, placenta, synovium and cartiliage.
 
 #### New studies
 
