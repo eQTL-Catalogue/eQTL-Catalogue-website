@@ -10,7 +10,7 @@ order: 2
 - RNA-seq quantification: [eQTL-Catalogue/rnaseq](https://github.com/eQTL-Catalogue/rnaseq)
 - Gene expression QC and normalisation: [eQTL-Catalogue/qcnorm](https://github.com/eQTL-Catalogue/qcnorm)
 - Genotype QC and imputation: [eQTL-Catalogue/genimpute](https://github.com/eQTL-Catalogue/genimpute)
-- Association testing: [eQTL-Catalogue/qtlmap](https://github.com/eQTL-Catalogue/qtlmap)
+- Association testing and fine mapping: [eQTL-Catalogue/qtlmap](https://github.com/eQTL-Catalogue/qtlmap)
 
 ## Methods
 Detailed description of the methods can be found in our [flagship paper](https://doi.org/10.1101/2020.01.29.924266). Below is a short overview of the main analysis steps.
