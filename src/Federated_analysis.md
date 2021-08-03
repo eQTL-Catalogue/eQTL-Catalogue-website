@@ -18,4 +18,4 @@ To facilitiate the inclusion of studies with restrictions on data sharing while 
 The eQTL Catalogue [workflows]({{ site.domain }}{{ site.baseurl }}/Methods/) are written in the [Nextflow](https://www.nextflow.io/) language and use [Docker](https://www.docker.com/) and/or [Singularity](https://sylabs.io/singularity/) containers to manage software dependencies. Nextflow workflows can be executed in various [cluster or cloud environments](https://www.nextflow.io/docs/latest/executor.html). Detailed instructions and techical support will be available for participanting cohorts. 
 
 ### Want to participate?
-Would you like to include your cohort or dataset in the eQTL Catalogue? Feel free to contact us at [eqtlcatalogue@ebi.ac.uk](mailto:eqtlcatalogue@ebi.ac.uk).
+Would you like to include your cohort or dataset in the eQTL Catalogue? Contact us at [eqtlcatalogue@ebi.ac.uk](mailto:eqtlcatalogue@ebi.ac.uk).
