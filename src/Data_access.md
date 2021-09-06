@@ -7,11 +7,22 @@ order: 4
 
 ## Data access
 
+### FIVEx eQTL broweser
+The eQTL Catalogue gene expression and splicing QTLs can be visualised with the [FIVEx eQTL broweser](https://fivex.sph.umich.edu/).
+
+![HAL locus in the FIVEx broweser](static/HAL.png)
+
+FIVEx has been developed at the University of Michigan. If you use FIVEx, please cite their [paper](https://doi.org/10.1093/bioinformatics/btab614).
+
 ### FTP downloads
 
-On our [FTP site](ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL) you will find both tab-delimited flatfiles as well as HDF5 files. 
+On our [FTP site](ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL) you will find both tab-delimited flat files as well as HDF5 files. 
 
 The URLs of all individual tab-delimited files together with metadata can be found [here](https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/tabix/).
+
+Fine mapping results can be downloaded from [here](ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL/credible_sets/).
+
+All file formats are explained [here](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/blob/master/tabix/Columns.md).
 
 ### Tabix
 
@@ -30,8 +41,8 @@ curl -s ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL/csv/BLUEPRINT/ge/BLUEPRINT_g
 
 You can query slices of eQTL summary statistics (by study and/or gene and/or SNP) using our [RESTful API]({{ site.domain }}{{ site.baseurl }}/api-docs).
 
-### Fine mapping results
-We have also calculated fine mapped eQTL credible sets using the SuSiE model. ELIXIR-Estonia has developed an interactive [credible set browser](https://elixir.ut.ee/eqtl/), where you can quickly check if your variant of interest is likely to be a causal eQTL variant. 
+### ELIXIR-Estonia credible set browser
+ELIXIR-Estonia has developed an interactive [credible set browser](https://elixir.ut.ee/eqtl/), where you can quickly check if your variant of interest is likely to be a causal eQTL variant. 
 
 #### Examples
 * Inflammatory bowel disease lead variant at the PDGFB locus: [rs2413583](https://elixir.ut.ee/eqtl/?rsid=rs2413583)
