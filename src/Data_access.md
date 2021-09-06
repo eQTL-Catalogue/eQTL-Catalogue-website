@@ -10,7 +10,7 @@ order: 4
 ### FIVEx eQTL broweser
 The eQTL Catalogue gene expression and splicing QTLs can be visualised with the [FIVEx eQTL broweser](https://fivex.sph.umich.edu/).
 
-![HAL locus in the FIVEx broweser](static/HAL.png)
+<img src="static/HAL.png" alt="HAL locus in the FIVEx broweser" width="304" height="307"/>
 
 FIVEx has been developed at the University of Michigan. If you use FIVEx, please cite their [paper](https://doi.org/10.1093/bioinformatics/btab614).
 
