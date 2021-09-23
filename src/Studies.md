@@ -49,7 +49,7 @@ order: 5
 [Naranbhai_2015](http://dx.doi.org/10.1038/ncomms8545) | neutrophils |  | 93 | 93 |  | [E-MTAB-3536](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-3536) | [EGAD00010000144](https://www.ebi.ac.uk/ega/datasets/EGAD00010000144); [EGAD00010000520](https://www.ebi.ac.uk/ega/datasets/EGAD00010000520) |  [link]({{ site.domain }}{{ site.baseurl }}/static/QC_reports/Naranbhai_2015_QC_report.html)
 
 ### Imported studies
-Although we generally prefer to reprocess all studies incldued in the eQTL Catalogue, we have also made original summary statistics available from a small number large-scale eQTL studies. These summary statistis can be accessed using both our REST API and FTP and follow the same general format. However, these studies have used independent gene expression quantification and genotype quality control workflows, so some systematic differences in eQTL results are expected.
+Although we generally prefer to reprocess all studies incldued in the eQTL Catalogue, we have also made original summary statistics available from a few large-scale eQTL studies. These summary statistis can be accessed using both our REST API and FTP and follow the same general format. However, these studies have used independent gene expression quantification and genotype quality control workflows, so some systematic differences in eQTL results are expected.
 
 | Study | Cell types or tissues | Conditions | Samples | Donors | Quantification | Raw expression data | Raw genotype data | Summary statistics source |
 |---|---|---|---|---|---|---|---|---|---|
@@ -60,7 +60,7 @@ Although we generally prefer to reprocess all studies incldued in the eQTL Catal
 [^3]: dorsolateral prefrontal cortex
 
 ## Acknowledgements
-If you find the eQTL Catalogue useful in your research, please cite the eQTL Catalogue [**flagship paper**](https://doi.org/10.1101/2020.01.29.924266) as well as the orginal publications producing the raw data and aknowledge the funding that they received. 
+If you find the eQTL Catalogue useful in your research, please cite the eQTL Catalogue [**flagship paper**](https://doi.org/10.1038/s41588-021-00924-w) as well as the orginal publications producing the raw data and aknowledge the funding that they received. 
 
 #### BLUEPRINT
 **Publication**: Chen, Lu, et al. "Genetic drivers of epigenetic and transcriptional variation in human immune cells." Cell 167.5 (2016): 1398-1414.

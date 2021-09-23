@@ -16,9 +16,9 @@ Quantitative trait loci (QTL) are genomic variants that are significantly associ
 
 They have proven particularly useful to (statistical) geneticists exploring GWAS results, who wish to associate non-coding GWAS SNP associations to a molecular mechanism, such as perturbed gene expression or splicing.
 
-To compute them we process public studies with our [uniform pipeline]({{ site.domain }}{{ site.baseurl }}/Methods/). We currently provide access to [21 published studies]({{ site.domain }}{{ site.baseurl }}/Studies/), with an aim to cover all accessible published studies on human.
+To compute them we process public studies with our [uniform pipeline]({{ site.domain }}{{ site.baseurl }}/Methods/). We currently provide access to [29 published studies]({{ site.domain }}{{ site.baseurl }}/Studies/), with an aim to cover all accessible published studies on human.
 
-A complete explanation can be found in our [preprint](https://www.biorxiv.org/content/10.1101/2020.01.29.924266v1) and a presentation on our [webinar](https://www.ebi.ac.uk/training/online/course/eqtl-catalogue-compendium-uniformly-processed-human-expression-and-splicing-qtls).
+A complete explanation can be found in our [flagship paper](https://doi.org/10.1038/s41588-021-00924-w) and a presentation on our [webinar](https://www.ebi.ac.uk/training/online/course/eqtl-catalogue-compendium-uniformly-processed-human-expression-and-splicing-qtls).
 
 Access our results
 ------------------
