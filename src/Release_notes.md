@@ -7,6 +7,26 @@ order: 8
 
 ## Release notes
 
+### eQTL Catalogue release 5 - April 2022
+
+Release 5 brings multiple important updates, including re-imputed genotypes, X chromosome QTLs, changes to data normalisation and two new studies.
+
+#### Updated genotype imputation workflow
+All of the studies using genotyping microarrays have been re-imputed with the [eQTL-Catalogue/genimpute](https://github.com/eQTL-Catalogue/genimpute) v22.01.1 workflow. We have updated the imputation reference panel to [recently published](https://www.biorxiv.org/content/10.1101/2021.02.06.430068v2) high coverage [1000 Genomes 30x on GRCh38](https://www.internationalgenome.org/data-portal/data-collection/30x-grch38) based on the GRCh38 reference genome. As a result, CrossMap.py is no longer used to lift over imputed genotypes from GRCh37 to GRCh38. This should significantly increase the accuracy of imputed indels and structural variants.
+
+#### X chromosome QTLs
+The [eQTL-Catalogue/genimpute](https://github.com/eQTL-Catalogue/genimpute) v22.01.1 workflow now also supports the X chromsome. Briefly, we perform variant-level QC on the female smaples, retain the same variants in the male samples and jointly impute all samples using Minimac4. Finally we adjust male genotype dosage to match female dosage and perform joint eQTL analysis across all samples using sex as a covariate. Unfortunately, raw X chromosome genotypes were missing from 13 of the 31 studies which prevented us from mapping X chromosome QTLs in those studies. List of studies with X chromosome QTLs can be found [here](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/blob/master/data_tables/chrX_genotypes.tsv).
+
+#### Data normalisation
+We are now performing inverse normal transformation (INT) on top of the existing RNA-seq and microarray normalisation methods to reduce rare false positives caused by outlier samples. See [Methods](http://www.ebi.ac.uk/eqtl/Methods/) for more details.
+
+#### REST API
+REST API is currently undergoing major revisions to support increasing data volumes. As a result, the data on the REST API **has not been updated*Ä since release 3. We are planning to fix the issues and update the data for the next release. Currently, the only way to access release 5 data is via the FTP.
+
+#### New studes
+* Bossini-Castillo_2019 - Regulatory T cells from 119 individuals
+* Gilchrist_2021 - NK cells from 247 individuals (microarray)
+
 ### eQTL Catalogue release 4 - June 2021
 
 We have added eight new studies, increasing the total number of samples to 30,619 and the number of unique donors to 7,182. The number of distinct cell types and tissues has increased to 74. The novel cell types and tissues in this release are microglia, hepatocyte-like cells, placenta, synovium and cartiliage.
