@@ -10,7 +10,7 @@ order: 4
 ### FIVEx eQTL browser
 The eQTL Catalogue gene expression and splicing QTLs can be visualised with the [FIVEx eQTL browser](https://fivex.sph.umich.edu/).
 
-<img src="../static/HAL.png" alt="HAL locus in the FIVEx broweser" width="456" height="460"/>
+<img src="../static/HAL.png" alt="HAL locus in the FIVEx browser" width="456" height="460"/>
 
 FIVEx has been developed at the University of Michigan. If you use FIVEx, please cite their [paper](https://doi.org/10.1093/bioinformatics/btab614).
 
