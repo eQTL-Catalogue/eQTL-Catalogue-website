@@ -36,6 +36,7 @@ order: 5
 [Braineac2](https://doi.org/10.1038/s41467-020-14483-x) | brain (putamen, substantia nigra) |  | 167 | 110 |  | Not deposited | Not deposited | [link]({{ site.domain }}{{ site.baseurl }}/static/QC_reports/Braineac2_QC_report.html)
 [Steinberg_2020](https://doi.org/10.1038/s41467-021-21593-7) | synovium, cartilage |  | 210 | 73 | | [EGAD00001005215](https://www.ebi.ac.uk/ega/datasets/EGAD00001005215), [EGAD00001003355](https://www.ebi.ac.uk/ega/datasets/EGAD00001003355) | [EGAD00010001746](https://www.ebi.ac.uk/ega/datasets/EGAD00010001746) | [link]({{ site.domain }}{{ site.baseurl }}/static/QC_reports/Steinberg_2020_QC_report.html)
 [Young_2019](https://doi.org/10.1038/s41588-021-00875-2) | microglia |  | 104 | 104 | | [EGAD00001005736](https://www.ebi.ac.uk/ega/datasets/EGAD00001005736) | [EGAD00001005736](https://www.ebi.ac.uk/ega/datasets/EGAD00001005736) | [link]({{ site.domain }}{{ site.baseurl }}/static/QC_reports/Young_2019_QC_report.html)
+[Bossini-Castillo_2019](https://doi.org/10.1016/j.xgen.2022.100117) | regulatory T cells |  | 119 | 119 | | [EGAD00001004830](https://www.ebi.ac.uk/ega/datasets/EGAD00001004830) | [EGAD00010001848](https://ega-archive.org/datasets/EGAD00010001848) | [link]({{ site.domain }}{{ site.baseurl }}/static/QC_reports/Bossini-Castillo_2019_QC_report.html)
 
 
 ### Microarray studies
@@ -47,6 +48,8 @@ order: 5
 [Fairfax_2014](http://dx.doi.org/10.1126/science.1246949) | monocytes | IFN24, LPS2, LPS24 | 1372 | 424 | [E-MTAB-2232](https://www.ebi.ac.uk/gxa/experiments/E-MTAB-2232) | [E-MTAB-2232](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-2232) | [EGAD00010000144](https://www.ebi.ac.uk/ega/datasets/EGAD00010000144); [EGAD00010000520](https://www.ebi.ac.uk/ega/datasets/EGAD00010000520) | [link]({{ site.domain }}{{ site.baseurl }}/static/QC_reports/Fairfax_2014_QC_report.html)
 [Kasela_2017](http://dx.doi.org/10.1371/journal.pgen.1006643) | CD4+ and CD8+ T cells |  | 553 | 297 |  | [GSE78840](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE78840) | Not deposited| [link]({{ site.domain }}{{ site.baseurl }}/static/QC_reports/Kasela_2017_QC_report.html)
 [Naranbhai_2015](http://dx.doi.org/10.1038/ncomms8545) | neutrophils |  | 93 | 93 |  | [E-MTAB-3536](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-3536) | [EGAD00010000144](https://www.ebi.ac.uk/ega/datasets/EGAD00010000144); [EGAD00010000520](https://www.ebi.ac.uk/ega/datasets/EGAD00010000520) |  [link]({{ site.domain }}{{ site.baseurl }}/static/QC_reports/Naranbhai_2015_QC_report.html)
+[Gilchrist_2021](https://www.biorxiv.org/content/10.1101/2021.05.10.443088v1) | NK cells |  | 247 | 247 |  | Not deposited | [EGAD00010000144](https://www.ebi.ac.uk/ega/datasets/EGAD00010000144); [EGAD00010000520](https://www.ebi.ac.uk/ega/datasets/EGAD00010000520) |  [link]({{ site.domain }}{{ site.baseurl }}/static/QC_reports/Gilchrist_2021_QC_report.html)
+
 
 ### Imported studies
 Although we generally prefer to reprocess all studies incldued in the eQTL Catalogue, we have also made original summary statistics available from a few large-scale eQTL studies. These summary statistis can be accessed using both our REST API and FTP and follow the same general format. However, these studies have used independent gene expression quantification and genotype quality control workflows, so some systematic differences in eQTL results are expected.
@@ -58,6 +61,8 @@ Although we generally prefer to reprocess all studies incldued in the eQTL Catal
 [^1]: induced pluripotent stem cells
 [^2]: lymphoblastoid cell lines
 [^3]: dorsolateral prefrontal cortex
+
+All imported studies are stored in the [`imported`](http://ftp.ebi.ac.uk/pub/databases/spot/eQTL/imported/) subfolder on our FTP server.
 
 ## Acknowledgements
 If you find the eQTL Catalogue useful in your research, please cite the eQTL Catalogue [**flagship paper**](https://doi.org/10.1038/s41588-021-00924-w) as well as the orginal publications producing the raw data and aknowledge the funding that they received. 

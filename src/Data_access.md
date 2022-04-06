@@ -16,7 +16,7 @@ FIVEx has been developed at the University of Michigan. If you use FIVEx, please
 
 ### FTP downloads
 
-On our [FTP site](ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL) you will find both tab-delimited flat files as well as HDF5 files. 
+On our [FTP site](http://ftp.ebi.ac.uk/pub/databases/spot/eQTL) you will find both tab-delimited flat files as well as HDF5 files. 
 
 The URLs of all individual tab-delimited files together with metadata can be found [here](https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/tabix/).
 
