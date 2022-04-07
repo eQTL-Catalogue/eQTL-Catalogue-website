@@ -11,10 +11,12 @@ spec:
   selector:
     app: ensembl-eqtl
 ---
-apiVersion: apps/v1beta2
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: ensembl-eqtl
+  labels:
+    app: ensembl-eqtl
 spec:
   selector:
     matchLabels:

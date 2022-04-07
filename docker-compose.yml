@@ -2,7 +2,7 @@ version: "2"
 
 services:
   jekyll:
-    image: jekyll/builder:pages
+    image: jekyll/jekyll:3.8
     volumes: 
       - ./src:/srv/jekyll
     entrypoint: 'jekyll build --watch'

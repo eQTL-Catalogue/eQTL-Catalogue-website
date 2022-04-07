@@ -1,4 +1,4 @@
-FROM jekyll/builder:pages as builder
+FROM jekyll/jekyll:3.8 as builder
 
 WORKDIR /tmp
 
