@@ -21,7 +21,7 @@ The [eQTL-Catalogue/genimpute](https://github.com/eQTL-Catalogue/genimpute) v22.
 We are now performing inverse normal transformation (INT) on top of the existing RNA-seq and microarray normalisation methods to reduce rare false positives caused by outlier samples. See [Methods](http://www.ebi.ac.uk/eqtl/Methods/) for more details.
 
 #### REST API
-REST API is currently undergoing major revisions to support increasing data volumes. As a result, the data on the REST API **has not been updated*Ä since release 3. We are planning to fix the issues and update the data for the next release. Currently, the only way to access release 5 data is via the FTP.
+REST API is currently undergoing major revisions to support increasing data volumes. As a result, the data on the REST API **has not been updated** since release 3. We are planning to fix the issues and update the data for the next release. Currently, the only way to access release 5 data is via the FTP.
 
 #### New studes
 * Bossini-Castillo_2019 - Regulatory T cells from 119 individuals
