@@ -30,6 +30,8 @@ You can also use curl to access column names:
 curl -s ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/BLUEPRINT/ge/BLUEPRINT_SE_ge_monocyte.all.tsv.gz | zcat | head -n 1
 ```
 
+However, please note that frequent tabix requests to the FTP server are sometimes interpreted as denial-of-service (DoS) attacks by the EBI firewall. This can result in your IP address being blacklisted which then needs to be manually whitelisted again. The root cause is that both tabix requests and DoS attacks on the FTP manifest as frequent incomplete file download attempts in a short period of time. We thus recommend limiting the frequency of tabix requests (e.g. one request in every couple of seconds) or downloading the full summary statistics files if many requests need to be made.
+
 ### RESTful API
 
 You can query slices of eQTL summary statistics (by study and/or gene and/or SNP) using our [RESTful API]({{ site.domain }}{{ site.baseurl }}/api-docs). Note that the API is currently undergoing major revisions to support increasing data volumes. As a result, the data on the API **has not been updated** since release 3. 
