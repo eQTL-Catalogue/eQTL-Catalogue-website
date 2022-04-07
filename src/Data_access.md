@@ -7,13 +7,6 @@ order: 4
 
 ## Data access
 
-### FIVEx eQTL browser
-The eQTL Catalogue gene expression and splicing QTLs can be visualised with the [FIVEx eQTL browser](https://fivex.sph.umich.edu/).
-
-<img src="../static/HAL.png" alt="HAL locus in the FIVEx browser" width="456" height="460"/>
-
-FIVEx has been developed at the University of Michigan. If you use FIVEx, please cite their [paper](https://doi.org/10.1093/bioinformatics/btab614).
-
 ### FTP downloads
 
 On our [FTP site](http://ftp.ebi.ac.uk/pub/databases/spot/eQTL) you will find both tab-delimited flat files as well as HDF5 files. 
@@ -39,7 +32,7 @@ curl -s ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/BLUEPRINT/ge/BLUEPR
 
 ### RESTful API
 
-You can query slices of eQTL summary statistics (by study and/or gene and/or SNP) using our [RESTful API]({{ site.domain }}{{ site.baseurl }}/api-docs).
+You can query slices of eQTL summary statistics (by study and/or gene and/or SNP) using our [RESTful API]({{ site.domain }}{{ site.baseurl }}/api-docs). Note that the API is currently undergoing major revisions to support increasing data volumes. As a result, the data on the API **has not been updated** since release 3. 
 
 ### ELIXIR-Estonia credible set browser
 ELIXIR-Estonia has developed an interactive [credible set browser](https://elixir.ut.ee/eqtl/), where you can quickly check if your variant of interest is likely to be a causal eQTL variant. 
@@ -48,6 +41,13 @@ ELIXIR-Estonia has developed an interactive [credible set browser](https://elixi
 * Inflammatory bowel disease lead variant at the PDGFB locus: [rs2413583](https://elixir.ut.ee/eqtl/?rsid=rs2413583)
 
 Complete fine mapping results can be downloaded from our [FTP](ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL/credible_sets/).
+
+### FIVEx eQTL browser
+The eQTL Catalogue gene expression and splicing QTLs from release 3 can be visualised with the [FIVEx eQTL browser](https://fivex.sph.umich.edu/).
+
+<img src="../static/HAL.png" alt="HAL locus in the FIVEx browser" width="456" height="460"/>
+
+FIVEx has been developed at the University of Michigan. If you use FIVEx, please cite their [paper](https://doi.org/10.1093/bioinformatics/btab614). 
 
 ## Tutorials
 
@@ -65,6 +65,9 @@ We store one rsid per line in our summary staistics files. Thus, if a single var
 
 #### How are multi-allelic variants handled?
 Multi-allelic variants are included in the analysis, but they are split over multiple and have unique ALT alleles and variant IDs (but might have the same rsids).
+
+#### Do you also map QTLs on the X chromsome?
+X chromosome QTLs were added in release 5. List of studies with X chromosome QTLs can be found [here](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/blob/master/data_tables/chrX_genotypes.tsv).
 
 ## Expression Atlas
 
