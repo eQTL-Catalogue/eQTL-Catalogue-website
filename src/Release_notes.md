@@ -27,7 +27,7 @@ We have also made two major changes to our statistical fine-mapping workflow:
 #### Visualisation of transcript-level associations
 We have now generated static QTL coverage plots for 1.7 million association signals and made them available via our [FTP server](http://ftp.ebi.ac.uk/pub/databases/spot/eQTL/coverage_plots). These plots display normalised RNA-seq read coverage across all exons of the gene, exon-level QTL effect sizes and standard errors, as well as the alternative transcripts or splice junctions used in association testing. See the [preprint]() for more details.
 
-#### Unique study and datsset ids
+#### Unique study and dataset ids
 We have assigned unique permanent ids for all studies and datasets present in the eQTL Catalogue. These ids together with additional metadata can be found on our [GitHub page](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/blob/master/data_tables/dataset_metadata.tsv) and [REST API](https://www.ebi.ac.uk/eqtl/api/docs). We are also using the same ids consistenly across all the files available from our FTP server. See the [Data access]({{site.domain}}{{site.baseurl}}/Data_access) page for more details.
 
 
