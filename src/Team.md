@@ -15,6 +15,8 @@ Contact us all at [eqtlcatalogue@ebi.ac.uk](mailto:eqtlcatalogue@ebi.ac.uk).
 - [Nurlan Kerimov](https://github.com/kerimoff)
 - [Ivan Kuzmin](https://www.etis.ee/CV/inkuzmin/est?lang=ENG&tabId=CV_ENG)
 - [Ralf Tambets](https://www.etis.ee/Portal/Persons/Display/6a75ed3d-4c50-4d8f-9198-6f4a211ff228?tabId=CV_ENG)
+- Peep Kolberg
+
 
 ### European Bioinformatics Institute
 - [Tony Burdett](https://www.ebi.ac.uk/about/people/tony-burdett)
