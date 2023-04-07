@@ -15,9 +15,9 @@ The metadata for all uniformly processed datasets can be found [here](https://gi
 
 The URLs of all individual tab-delimited files together with metadata can be found [here](https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/tabix/).
 
-Fine mapping results can be downloaded from [here](ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/).
+Fine mapping results can be downloaded from [here](http://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/).
 
-QTL coverage plots can be downloaded from here [here](ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL/credible_sets/)
+QTL coverage plots can be downloaded from here [here](http://ftp.ebi.ac.uk/pub/databases/spot/eQTL/credible_sets/)
 
 All file formats are explained [here](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/blob/master/tabix/Columns.md).
 
