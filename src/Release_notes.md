@@ -15,7 +15,7 @@ Release 6 coincides with the publication of the new eQTL Catalogue [preprint]() 
 All RNA-seq datasets have been reprocessed with v22.05.1 of the [eQTL-Catalogue/rnaseq](https://github.com/eQTL-Catalogue/rnaseq) workflow. The main changes are:
 
 * We have now implemented [LeafCutter](https://davidaknowles.github.io/leafcutter/) as the fifth quantification method to directly quantify splice junction usage.
-* Reference transcriptome annotations have been updated to Ensembl 105 and GENCODE v39. Updated metadata files are available form [here](https://doi.org/10.5281/zenodo.4715946).
+* Reference transcriptome annotations have been updated to Ensembl 105 and GENCODE v39. Updated metadata files are available form [here](https://doi.org/10.5281/zenodo.7808390).
 * Txrevise promoter usage annotations have been augmented with experimentally-derived CAGE promoter annotations from the FANTOM5 project (see [preprint](https://doi.org/10.1101/2022.07.12.499800) for details).
 
 #### Updated fine-mapping workflow
