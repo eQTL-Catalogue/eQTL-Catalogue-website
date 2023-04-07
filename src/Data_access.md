@@ -9,26 +9,31 @@ order: 4
 
 ### FTP downloads
 
-On our [FTP site](http://ftp.ebi.ac.uk/pub/databases/spot/eQTL) you will find both tab-delimited flat files as well as HDF5 files. 
+On our [FTP site](http://ftp.ebi.ac.uk/pub/databases/spot/eQTL) you will find both tab-delimited flat files as well as HDF5 files.
+
+The metadata for all uniformly processed datasets can be found [here](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/blob/master/data_tables/dataset_metadata.tsv).
 
 The URLs of all individual tab-delimited files together with metadata can be found [here](https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/tabix/).
 
-Fine mapping results can be downloaded from [here](ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL/credible_sets/).
+Fine mapping results can be downloaded from [here](ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/).
+
+QTL coverage plots can be downloaded from here [here](ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL/credible_sets/)
 
 All file formats are explained [here](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/blob/master/tabix/Columns.md).
 
 ### Tabix
 
-Instead of downloading the full tab-delimited files from the FTP, you can also use [tabix](http://www.htslib.org/doc/tabix.1.html) to access specific regions from those files. For example, to fetch the association between [rs4239702](http://www.ensembl.org/Homo_sapiens/Variation/Explore?r=20:46120112-46121112;v=rs4239702;vdb=variation;vf=528871173) variant and all genes in the +/- 1Mb window in the monocyte samples from the BLUEPRINT study, you can use the following command:
+Instead of downloading the full tab-delimited files from the FTP, you can also use [tabix](http://www.htslib.org/doc/tabix.1.html) to access specific regions from those files. For example, to fetch the association between [rs4239702](http://www.ensembl.org/Homo_sapiens/Variation/Explore?r=20:46120112-46121112;v=rs4239702;vdb=variation;vf=528871173) variant and all genes in the +/- 1Mb window in the monocyte samples from the BLUEPRINT study (QTD000021), you can use the following command:
 
 ```console
-tabix ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/BLUEPRINT/ge/BLUEPRINT_SE_ge_monocyte.all.tsv.gz 20:46120612-46120613
+tabix ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000002/QTD000021/QTD000021.all.tsv.gz 20:46120612-46120613
 ```
 
 You can also use curl to access column names:
 ```console
-curl -s ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/BLUEPRINT/ge/BLUEPRINT_SE_ge_monocyte.all.tsv.gz | zcat | head -n 1
+curl -s ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000002/QTD000021/QTD000021.all.tsv.gz | zcat | head -n 1
 ```
+
 
 However, please note that frequent tabix requests to the FTP server are sometimes interpreted as denial-of-service (DoS) attacks by the EBI firewall. This can result in your IP address being blacklisted which then needs to be manually whitelisted again. The root cause is that both tabix requests and DoS attacks on the FTP manifest as frequent incomplete file download attempts in a short period of time. We thus recommend limiting the frequency of tabix requests (e.g. one request in every couple of seconds) or downloading the full summary statistics files if many requests need to be made.
 
