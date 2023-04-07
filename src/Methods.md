@@ -56,6 +56,6 @@ In association testing, we use the following parameters:
 - Test all variants that are +/- 1Mb from the start of the gene (as defined in Ensembl).
 
 ## Reference annotatons
-- [Metadata for all molecular traits](http://doi.org/10.5281/zenodo.3366011)
-- [Reference transcriptome annotations used for analysis](https://zenodo.org/record/3366280#.XVG9q5MzaXU)
+- [Metadata for all molecular traits](https://doi.org/10.5281/zenodo.7808390)
+- [Reference annotations used for analysis](http://ftp.ebi.ac.uk/pub/databases/spot/eQTL/references/)
 
