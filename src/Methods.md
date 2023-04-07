@@ -38,7 +38,7 @@ Briefly, we use the following normalisation strategies:
 - **LeafCutter**: Normalisation for LeafCutter junction usage values are normalised the same way as txrevise and transcript usage estimates.
 
 ### Genotype imputation and quality control
-For most datasets, we performed basic genotype QC and imputed the datasets to the [1000 Genomes 30x on GRCh38](https://www.internationalgenome.org/data-portal/data-collection/30x-grch38) reference panel with the [eQTL-Catalogue/genimpute]((https://github.com/eQTL-Catalogue/genimpute) workflow.
+For most datasets, we performed basic genotype QC and imputed the datasets to the [1000 Genomes 30x on GRCh38](https://www.internationalgenome.org/data-portal/data-collection/30x-grch38) reference panel with the [eQTL-Catalogue/genimpute](https://github.com/eQTL-Catalogue/genimpute) workflow.
 
 ### Association testing
 
