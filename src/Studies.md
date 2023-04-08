@@ -51,6 +51,11 @@ order: 5
 [Gilchrist_2021](https://www.biorxiv.org/content/10.1101/2021.05.10.443088v1) | NK cells |  | 247 | 247 |  | Not deposited | [EGAD00010000144](https://www.ebi.ac.uk/ega/datasets/EGAD00010000144); [EGAD00010000520](https://www.ebi.ac.uk/ega/datasets/EGAD00010000520) |  [link]({{ site.domain }}{{ site.baseurl }}/static/QC_reports/Gilchrist_2021_QC_report.html)
 
 
+#### Protein QTL studies
+| Study ID | Publication | Cell types or tissues | Conditions | Samples | Donors | Raw protein data | Raw genotype data |
+|---|---|---|---|---|---|---|---|
+QTS000035 | [Sun_2018](https://doi.org/10.1038/s41586-018-0175-2) | plasma | | 3301 | 3301 | [EGAD00001004080](https://www.ebi.ac.uk/ega/datasets/EGAD00001004080) | [EGAD00010001544](https://www.ebi.ac.uk/ega/datasets/EGAD00010001544) |
+
 ### Imported studies
 Although we generally prefer to reprocess all studies incldued in the eQTL Catalogue, we have also made original summary statistics available from a few large-scale eQTL studies. These summary statistis can be accessed using both our REST API and FTP and follow the same general format. However, these studies have used independent gene expression quantification and genotype quality control workflows, so some systematic differences in eQTL results are expected.
 
