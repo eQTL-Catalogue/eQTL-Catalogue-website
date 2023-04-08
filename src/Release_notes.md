@@ -9,14 +9,14 @@ order: 8
 
 ### eQTL Catalogue release 6 - April 2023
 
-Release 6 coincides with the publication of the new eQTL Catalogue [preprint]() and brings a number of important updates.
+Release 6 coincides with the publication of the new eQTL Catalogue [preprint](https://doi.org/10.1101/2023.04.06.535816) and brings a number of important updates.
 
 #### Updated molecular trait qunatification workflow
 All RNA-seq datasets have been reprocessed with v22.05.1 of the [eQTL-Catalogue/rnaseq](https://github.com/eQTL-Catalogue/rnaseq) workflow. The main changes are:
 
 * We have now implemented [LeafCutter](https://davidaknowles.github.io/leafcutter/) as the fifth quantification method to directly quantify splice junction usage.
 * Reference transcriptome annotations have been updated to Ensembl 105 and GENCODE v39. Updated metadata files are available form [here](https://doi.org/10.5281/zenodo.7808390).
-* Txrevise promoter usage annotations have been augmented with experimentally-derived CAGE promoter annotations from the FANTOM5 project (see [preprint](https://doi.org/10.1101/2022.07.12.499800) for details).
+* Txrevise promoter usage annotations have been augmented with experimentally-derived CAGE promoter annotations from the FANTOM5 project (see txrevise [preprint](https://doi.org/10.1101/2022.07.12.499800) for details).
 
 #### Updated fine-mapping workflow
 We have also made two major changes to our statistical fine-mapping workflow:
@@ -25,7 +25,7 @@ We have also made two major changes to our statistical fine-mapping workflow:
 * To reduce the size of the exon- and transcript-level summary statistics files, we now retain the most strongly associated molecular trait (exon, transcript, txrevise event or Leafcutter splice junction) for each independent fine-mapped signal. This filtering reduce the size of the summary statistics files by ~98% while retaining the summary statistcs from almost all significant loci for colocalisation purposes. For gene expression QTLs, we continue to provide access to the complete set of cis-eQTL summary statistics. The filtered summary statistics files have the .cc.tsv.gz suffix while the full summary statistics files have the .all.tsv.gz suffix.
 
 #### Visualisation of transcript-level associations
-We have now generated static QTL coverage plots for 1.7 million association signals and made them available via our [FTP server](http://ftp.ebi.ac.uk/pub/databases/spot/eQTL/credible_sets). These plots display normalised RNA-seq read coverage across all exons of the gene, exon-level QTL effect sizes and standard errors, as well as the alternative transcripts or splice junctions used in association testing. See the [preprint]() for more details.
+We have now generated static QTL coverage plots for 1.7 million association signals and made them available via our [FTP server](http://ftp.ebi.ac.uk/pub/databases/spot/eQTL/credible_sets). These plots display normalised RNA-seq read coverage across all exons of the gene, exon-level QTL effect sizes and standard errors, as well as the alternative transcripts or splice junctions used in association testing. See the [preprint](https://doi.org/10.1101/2023.04.06.535816) for more details.
 
 #### Unique study and dataset ids
 We have assigned unique permanent ids for all studies and datasets present in the eQTL Catalogue. These ids together with additional metadata can be found on our [GitHub page](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/blob/master/data_tables/dataset_metadata.tsv) and [REST API](https://www.ebi.ac.uk/eqtl/api/docs). We are also using the same ids consistenly across all the files available from our FTP server. See the [Data access]({{site.domain}}{{site.baseurl}}/Data_access) page for more details.
