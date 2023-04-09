@@ -51,7 +51,7 @@ order: 5
 [Gilchrist_2021](https://www.biorxiv.org/content/10.1101/2021.05.10.443088v1) | NK cells |  | 247 | 247 |  | Not deposited | [EGAD00010000144](https://www.ebi.ac.uk/ega/datasets/EGAD00010000144); [EGAD00010000520](https://www.ebi.ac.uk/ega/datasets/EGAD00010000520) |  [link]({{ site.domain }}{{ site.baseurl }}/static/QC_reports/Gilchrist_2021_QC_report.html)
 
 
-#### Protein QTL studies
+### Protein QTL studies
 
 | Study ID | Publication | Cell types or tissues | Conditions | Samples | Donors | Raw protein data | Raw genotype data |
 |---|---|---|---|---|---|---|---|
