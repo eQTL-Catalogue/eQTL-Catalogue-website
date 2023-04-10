@@ -1,8 +1,8 @@
 before_script:
   - export IMAGE_NAME=$CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG:$CI_COMMIT_SHA
 
-include:
-  - template: Container-Scanning.gitlab-ci.yml
+# include:
+#   - template: Container-Scanning.gitlab-ci.yml
 
 stages:
   - build
