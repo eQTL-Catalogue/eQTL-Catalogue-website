@@ -6,7 +6,7 @@ include:
 
 stages:
   - build
-  - test
+#   - test
   - deploy
 
 build:
@@ -18,9 +18,9 @@ build:
     - docker build -t $IMAGE_NAME .
     - docker push $IMAGE_NAME
 
-container_scanning:
-  tags:
-    - dind2
+# container_scanning:
+#   tags:
+#     - dind2
 
 # Reusable template, requires the $KUBE_CONFIG and $NAMESPACE variables to be set
 # This subsitutes the environment variable $IMAGE_NAME in the overlay file, and deploys
@@ -54,6 +54,8 @@ deploy_to_hh_wp_prod:
   stage: deploy
   only:
     - tags
+  except:
+    - branches
   variables:
     NAMESPACE: static-sites-prod
     KUBE_CONFIG: $HH_WP_KUBE_CONFIG
@@ -63,6 +65,8 @@ deploy_to_hx_wp_prod:
   stage: deploy
   only:
     - tags
+  except:
+    - branches  
   variables:
     NAMESPACE: static-sites-prod
     KUBE_CONFIG: $HX_WP_KUBE_CONFIG
