@@ -17,7 +17,7 @@ The URLs of all individual tab-delimited files together with metadata can be fou
 
 Fine mapping results can be downloaded from [here](http://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/).
 
-QTL coverage plots can be downloaded from here [here](http://ftp.ebi.ac.uk/pub/databases/spot/eQTL/credible_sets/)
+QTL coverage plots can be downloaded from here [here](http://ftp.ebi.ac.uk/pub/databases/spot/eQTL/coverage_plots/)
 
 All file formats are explained [here](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/blob/master/tabix/Columns.md).
 
