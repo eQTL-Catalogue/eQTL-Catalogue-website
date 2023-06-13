@@ -39,7 +39,7 @@ However, please note that frequent tabix requests to the FTP server are sometime
 
 ### RESTful API
 
-You can query slices of eQTL summary statistics (by study and/or gene and/or SNP) using our [RESTful API]({{ site.domain }}{{ site.baseurl }}/api-docs). Note that the API is currently undergoing major revisions to support increasing data volumes. As a result, the data on the API **has not been updated** since release 3. 
+You can query eQTL summary statistics datasets using our [RESTful API]({{ site.domain }}{{ site.baseurl }}/api/docs). 
 
 ### ELIXIR-Estonia credible set browser
 ELIXIR-Estonia has developed an interactive [credible set browser](https://elixir.ut.ee/eqtl/), where you can quickly check if your variant of interest is likely to be a causal eQTL variant. 
