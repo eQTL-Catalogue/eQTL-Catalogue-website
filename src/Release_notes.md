@@ -11,7 +11,7 @@ order: 8
 
 Release 6 coincides with the publication of the new eQTL Catalogue [preprint](https://doi.org/10.1101/2023.04.06.535816) and brings a number of important updates.
 
-#### Updated molecular trait qunatification workflow
+#### Updated molecular trait quantification workflow
 All RNA-seq datasets have been reprocessed with v22.05.1 of the [eQTL-Catalogue/rnaseq](https://github.com/eQTL-Catalogue/rnaseq) workflow. The main changes are:
 
 * We have now implemented [LeafCutter](https://davidaknowles.github.io/leafcutter/) as the fifth quantification method to directly quantify splice junction usage.
