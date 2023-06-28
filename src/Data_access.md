@@ -39,7 +39,7 @@ However, please note that frequent tabix requests to the FTP server are sometime
 
 ### RESTful API
 
-You can query eQTL summary statistics datasets using our [RESTful API]({{ site.domain }}{{ site.baseurl }}/api/docs). 
+You can query eQTL summary statistics datasets using our [RESTful API]({{ site.domain }}{{ site.baseurl }}/api/docs). See [documentation]({{ site.domain }}{{ site.baseurl }}/api/docs) and a [tutorial](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/blob/master/tutorials/API_v2/eQTL_API_tutorial.md) for more details.
 
 ### ELIXIR-Estonia credible set browser
 ELIXIR-Estonia has developed an interactive [credible set browser](https://elixir.ut.ee/eqtl/), where you can quickly check if your variant of interest is likely to be a causal eQTL variant. 
@@ -58,10 +58,8 @@ FIVEx has been developed at the University of Michigan. If you use FIVEx, please
 
 ## Tutorials
 
-* [Accessing summary statistics from HDF5 files in Python](https://github.com/EBISPOT/SumStats/blob/eqtls/querying_hdf5_basics.ipynb)
+* [Fetching summary statistics and performing colocalisation with eQTL Catalogue API v2](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/blob/master/tutorials/API_v2/eQTL_API_tutorial.md)
 * [Using tabix in R to fetch summary statistics and perform colocalisation](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/tutorials/tabix_use_case.html)
-* [Using the REST API in R to fetch summary statistics and perform colocalisation](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/tutorials/eQTL_API_usecase.html)
-* Using the [catalogueR](https://github.com/RajLabMSSM/catalogueR) R package developed by [Brian Schilder](https://github.com/bschilder) to access summary statistics.
 
 ## Frequently Asked Questions (FAQ)
 #### Which allele is the effect allele? 
