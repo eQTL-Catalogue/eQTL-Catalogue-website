@@ -9,7 +9,7 @@ order: 8
 
 ### eQTL Catalogue release 6 - April 2023
 
-Release 6 coincides with the publication of the new eQTL Catalogue [preprint](https://doi.org/10.1101/2023.04.06.535816) and brings a number of important updates.
+Release 6 coincides with the publication of the new eQTL Catalogue [paper](https://doi.org/10.1371/journal.pgen.1010932) and brings a number of important updates.
 
 #### Updated molecular trait quantification workflow
 All RNA-seq datasets have been reprocessed with v22.05.1 of the [eQTL-Catalogue/rnaseq](https://github.com/eQTL-Catalogue/rnaseq) workflow. The main changes are:
@@ -22,7 +22,7 @@ All RNA-seq datasets have been reprocessed with v22.05.1 of the [eQTL-Catalogue/
 We have also made two major changes to our statistical fine-mapping workflow:
 
 * In addition to fine-mapped credible sets, we have now also released log Bayes factors (LBFs) from the SuSiE analysis for all independent fine-mapped signals. This means that the eQTL Catalogue results can now directly be used with the new [coloc.susie](https://doi.org/10.1371/journal.pgen.1009440) colocalisation method that supports multiple independent causal variants in the region of interest.
-* To reduce the size of the exon- and transcript-level summary statistics files, we now retain the most strongly associated molecular trait (exon, transcript, txrevise event or Leafcutter splice junction) for each independent fine-mapped signal. This filtering reduce the size of the summary statistics files by ~98% while retaining the summary statistcs from almost all significant loci for colocalisation purposes. For gene expression QTLs, we continue to provide access to the complete set of cis-eQTL summary statistics. The filtered summary statistics files have the .cc.tsv.gz suffix while the full summary statistics files have the .all.tsv.gz suffix.
+* To reduce the size of the exon- and transcript-level summary statistics files, we now retain the most strongly associated molecular trait (exon, transcript, txrevise event or Leafcutter splice junction) for each independent fine-mapped signal. This filtering reduce the size of the summary statistics files by ~98% while retaining the summary statistics from almost all significant loci for colocalisation purposes. For gene expression QTLs, we continue to provide access to the complete set of cis-eQTL summary statistics. The filtered summary statistics files have the .cc.tsv.gz suffix while the full summary statistics files have the .all.tsv.gz suffix.
 
 #### Visualisation of transcript-level associations
 We have now generated static QTL coverage plots for 1.7 million association signals and made them available via our [FTP server](http://ftp.ebi.ac.uk/pub/databases/spot/eQTL/coverage_plots/). These plots display normalised RNA-seq read coverage across all exons of the gene, exon-level QTL effect sizes and standard errors, as well as the alternative transcripts or splice junctions used in association testing. See the [preprint](https://doi.org/10.1101/2023.04.06.535816) for more details.
