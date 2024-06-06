@@ -49,7 +49,7 @@ QTS000010 | [Fairfax_2014](http://dx.doi.org/10.1126/science.1246949) | monocyte
 QTS000018 | [Kasela_2017](http://dx.doi.org/10.1371/journal.pgen.1006643) | CD4+ and CD8+ T cells |  | 553 | 297 |  | [GSE78840](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE78840) | Not deposited| [link]({{ site.domain }}{{ site.baseurl }}/static/QC_reports/Kasela_2017_QC_report.html)
 QTS000020 | [Naranbhai_2015](http://dx.doi.org/10.1038/ncomms8545) | neutrophils |  | 93 | 93 |  | [E-MTAB-3536](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-3536) | [EGAD00010000144](https://www.ebi.ac.uk/ega/datasets/EGAD00010000144); [EGAD00010000520](https://www.ebi.ac.uk/ega/datasets/EGAD00010000520) |  [link]({{ site.domain }}{{ site.baseurl }}/static/QC_reports/Naranbhai_2015_QC_report.html)
 QTS000014 | [Gilchrist_2021](https://doi.org/10.1038/s41467-022-31626-4) | NK cells |  | 247 | 247 |  | [Zenodo](https://doi.org/10.5281/zenodo.6352656) | [EGAD00010000144](https://www.ebi.ac.uk/ega/datasets/EGAD00010000144); [EGAD00010000520](https://www.ebi.ac.uk/ega/datasets/EGAD00010000520) |  [link]({{ site.domain }}{{ site.baseurl }}/static/QC_reports/Gilchrist_2021_QC_report.html)
-QTS000014 | [Kim-Hellmuth_2017](https://doi.org/10.1038/s41467-017-00366-1) | monocytes | LPS, IVT, MDP | 672 | 96 |  | [E-MTAB-5631](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-5631) | Not deposited |  NA
+QTS000042 | [Kim-Hellmuth_2017](https://doi.org/10.1038/s41467-017-00366-1) | monocytes | LPS, IVT, MDP | 672 | 96 |  | [E-MTAB-5631](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-5631) | Not deposited |  NA
 
 
 ### Protein QTL studies
