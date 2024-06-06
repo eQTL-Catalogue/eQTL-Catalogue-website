@@ -8,7 +8,7 @@ order: 5
 
 ## List of studies included in the eQTL Catalogue
 
-### RNA-seq studies
+### Bulk RNA-seq studies
 
 | Study | Cell types or tissues | Conditions | Samples | Donors | Expression Atlas | Raw expression data | Raw genotype data | QC report |
 |---|---|---|---|---|---|---|---|---|
@@ -38,18 +38,20 @@ order: 5
 [Young_2019](https://doi.org/10.1038/s41588-021-00875-2) | microglia |  | 104 | 104 | | [EGAD00001005736](https://www.ebi.ac.uk/ega/datasets/EGAD00001005736) | [EGAD00001005736](https://www.ebi.ac.uk/ega/datasets/EGAD00001005736) | [link]({{ site.domain }}{{ site.baseurl }}/static/QC_reports/Young_2019_QC_report.html)
 [Bossini-Castillo_2019](https://doi.org/10.1016/j.xgen.2022.100117) | regulatory T cells |  | 119 | 119 | | [EGAD00001004830](https://www.ebi.ac.uk/ega/datasets/EGAD00001004830) | [EGAD00010001848](https://ega-archive.org/datasets/EGAD00010001848) | [link]({{ site.domain }}{{ site.baseurl }}/static/QC_reports/Bossini-Castillo_2019_QC_report.html)
 
+### Single-cell RNA-seq studies
+
 
 ### Microarray studies
 
-|Study ID | Publication | Cell types or tissues | Conditions | Samples | Donors | Expression Atlas | Raw expression data | Raw genotype data | QC report |
+|Study ID | Publication | Cell types or tissues | Conditions | Samples | Donors | Raw expression data | Raw genotype data | QC report |
 |---|---|---|---|---|---|---|---|---|---|
-QTS000007 | [CEDAR](http://dx.doi.org/10.1038/s41467-018-04365-8) | CD4+ and CD8+ T cells, monocytes, neutrophils, platelet, B cells, ileum, rectum, transverse colon |  | 2388 | 322 |  | [E-MTAB-6667](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-6667) | [E-MTAB-6666](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-6666)| [link]({{ site.domain }}{{ site.baseurl }}/static/QC_reports/CEDAR_QC_report.html)
-QTS000009 | [Fairfax_2012](http://dx.doi.org/10.1038/ng.2205) | B cells |  | 282 | 282 |  | [E-MTAB-945](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-945) | [EGAD00010000144](https://www.ebi.ac.uk/ega/datasets/EGAD00010000144); [EGAD00010000520](https://www.ebi.ac.uk/ega/datasets/EGAD00010000520) | [link]({{ site.domain }}{{ site.baseurl }}/static/QC_reports/Fairfax_2012_QC_report.html)
-QTS000010 | [Fairfax_2014](http://dx.doi.org/10.1126/science.1246949) | monocytes | IFN24, LPS2, LPS24 | 1372 | 424 | [E-MTAB-2232](https://www.ebi.ac.uk/gxa/experiments/E-MTAB-2232) | [E-MTAB-2232](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-2232) | [EGAD00010000144](https://www.ebi.ac.uk/ega/datasets/EGAD00010000144); [EGAD00010000520](https://www.ebi.ac.uk/ega/datasets/EGAD00010000520) | [link]({{ site.domain }}{{ site.baseurl }}/static/QC_reports/Fairfax_2014_QC_report.html)
-QTS000018 | [Kasela_2017](http://dx.doi.org/10.1371/journal.pgen.1006643) | CD4+ and CD8+ T cells |  | 553 | 297 |  | [GSE78840](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE78840) | Not deposited| [link]({{ site.domain }}{{ site.baseurl }}/static/QC_reports/Kasela_2017_QC_report.html)
-QTS000020 | [Naranbhai_2015](http://dx.doi.org/10.1038/ncomms8545) | neutrophils |  | 93 | 93 |  | [E-MTAB-3536](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-3536) | [EGAD00010000144](https://www.ebi.ac.uk/ega/datasets/EGAD00010000144); [EGAD00010000520](https://www.ebi.ac.uk/ega/datasets/EGAD00010000520) |  [link]({{ site.domain }}{{ site.baseurl }}/static/QC_reports/Naranbhai_2015_QC_report.html)
-QTS000014 | [Gilchrist_2021](https://doi.org/10.1038/s41467-022-31626-4) | NK cells |  | 247 | 247 |  | [Zenodo](https://doi.org/10.5281/zenodo.6352656) | [EGAD00010000144](https://www.ebi.ac.uk/ega/datasets/EGAD00010000144); [EGAD00010000520](https://www.ebi.ac.uk/ega/datasets/EGAD00010000520) |  [link]({{ site.domain }}{{ site.baseurl }}/static/QC_reports/Gilchrist_2021_QC_report.html)
-QTS000042 | [Kim-Hellmuth_2017](https://doi.org/10.1038/s41467-017-00366-1) | monocytes | LPS, IVT, MDP | 672 | 96 |  | [E-MTAB-5631](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-5631) | Not deposited |  NA
+QTS000007 | [CEDAR](http://dx.doi.org/10.1038/s41467-018-04365-8) | CD4+ and CD8+ T cells, monocytes, neutrophils, platelet, B cells, ileum, rectum, transverse colon |  | 2388 | 322 | [E-MTAB-6667](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-6667) | [E-MTAB-6666](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-6666)| [link]({{ site.domain }}{{ site.baseurl }}/static/QC_reports/CEDAR_QC_report.html)
+QTS000009 | [Fairfax_2012](http://dx.doi.org/10.1038/ng.2205) | B cells |  | 282 | 282 | [E-MTAB-945](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-945) | [EGAD00010000144](https://www.ebi.ac.uk/ega/datasets/EGAD00010000144); [EGAD00010000520](https://www.ebi.ac.uk/ega/datasets/EGAD00010000520) | [link]({{ site.domain }}{{ site.baseurl }}/static/QC_reports/Fairfax_2012_QC_report.html)
+QTS000010 | [Fairfax_2014](http://dx.doi.org/10.1126/science.1246949) | monocytes | IFN24, LPS2, LPS24 | 1372 | 424 | [E-MTAB-2232](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-2232) | [EGAD00010000144](https://www.ebi.ac.uk/ega/datasets/EGAD00010000144); [EGAD00010000520](https://www.ebi.ac.uk/ega/datasets/EGAD00010000520) | [link]({{ site.domain }}{{ site.baseurl }}/static/QC_reports/Fairfax_2014_QC_report.html)
+QTS000018 | [Kasela_2017](http://dx.doi.org/10.1371/journal.pgen.1006643) | CD4+ and CD8+ T cells |  | 553 | 297 | [GSE78840](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE78840) | Not deposited| [link]({{ site.domain }}{{ site.baseurl }}/static/QC_reports/Kasela_2017_QC_report.html)
+QTS000020 | [Naranbhai_2015](http://dx.doi.org/10.1038/ncomms8545) | neutrophils |  | 93 | 93 | [E-MTAB-3536](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-3536) | [EGAD00010000144](https://www.ebi.ac.uk/ega/datasets/EGAD00010000144); [EGAD00010000520](https://www.ebi.ac.uk/ega/datasets/EGAD00010000520) |  [link]({{ site.domain }}{{ site.baseurl }}/static/QC_reports/Naranbhai_2015_QC_report.html)
+QTS000014 | [Gilchrist_2021](https://doi.org/10.1038/s41467-022-31626-4) | NK cells |  | 247 | 247 | [Zenodo](https://doi.org/10.5281/zenodo.6352656) | [EGAD00010000144](https://www.ebi.ac.uk/ega/datasets/EGAD00010000144); [EGAD00010000520](https://www.ebi.ac.uk/ega/datasets/EGAD00010000520) |  [link]({{ site.domain }}{{ site.baseurl }}/static/QC_reports/Gilchrist_2021_QC_report.html)
+QTS000042 | [Kim-Hellmuth_2017](https://doi.org/10.1038/s41467-017-00366-1) | monocytes | LPS, IVT, MDP | 672 | 96 | [E-MTAB-5631](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-5631) | Not deposited |  NA
 
 
 ### Protein QTL studies
