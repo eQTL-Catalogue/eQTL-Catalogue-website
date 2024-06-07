@@ -17,7 +17,7 @@ Release 7 brings ten new datasets, including six uniformly processed single-cell
 * QTS000034 (Walker_2019) - neocortex from 211 donors
 * QTS000042 (Kim-Hellmuth_2017) - naive and stimulated monocytes from 96 donors (microarray)
 
-### New single-cell studies
+#### New single-cell studies
 * QTS000036 (Randolph_2021) - pheripheral blood mononuclear cells (PBMCs) from 89 donors
 * QTS000037 (Perez_2022) - PBMCs from lupus cases and controls (193 donors)
 * QTS000038 (OneK1K) - PBMCs from 981 donors
