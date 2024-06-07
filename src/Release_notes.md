@@ -23,7 +23,7 @@ Release 7 brings ten new datasets, including six uniformly processed single-cell
 * QTS000038 (OneK1K) - PBMCs from 981 donors
 * QTS000039 (Jerber_2021) - dopaminergic neuron differentiation from 194 donors
 * QTS000040 (Nathan_2022) - T-cells from 249 donors
-* QTS000037 (Cytoimmgen) - naive and stimulated T-cells from 106 donors
+* QTS000041 (Cytoimmgen) - naive and stimulated T-cells from 106 donors
 
 
 ### eQTL Catalogue release 6 - April 2023
