@@ -7,6 +7,25 @@ order: 8
 
 ## Release notes
 
+### eQTL Catalogue release 7 - June 2024
+
+Release 7 brings ten new datasets, including six uniformly processed single-cell eQTL datasets. All single-cell RNA-seq datasets were requantified with alevin-fry. After conversion to pseudobulk and normalisation, eQTL analysis was performed with [eQTL-Catalogue/qtlmap](https://github.com/eQTL-Catalogue/qtlmap).
+
+#### New bulk studies
+* QTS000032 (Aygün_2021) - neurons and neural progenitors form 85 donors
+* QTS000033 (PISA) - pancreatic islets from 127 donors
+* QTS000034 (Walker_2019) - neocortex from 211 donors
+* QTS000042 (Kim-Hellmuth_2017) - naive and stimulated monocytes from 96 donors (microarray)
+
+### New single-cell studies
+* QTS000036 (Randolph_2021) - pheripheral blood mononuclear cells (PBMCs) from 89 donors
+* QTS000037 (Perez_2022) - PBMCs from lupus cases and controls (193 donors)
+* QTS000038 (OneK1K) - PBMCs from 981 donors
+* QTS000039 (Jerber_2021) - dopaminergic neuron differentiation from 194 donors
+* QTS000040 (Nathan_2022) - T-cells from 249 donors
+* QTS000037 (Cytoimmgen) - naive and stimulated T-cells from 106 donors
+
+
 ### eQTL Catalogue release 6 - April 2023
 
 Release 6 coincides with the publication of the new eQTL Catalogue [paper](https://doi.org/10.1371/journal.pgen.1010932) and brings a number of important updates.
@@ -53,7 +72,7 @@ We are now performing inverse normal transformation (INT) on top of the existing
 #### REST API
 REST API is currently undergoing major revisions to support increasing data volumes. As a result, the data on the REST API **has not been updated** since release 3. We are planning to fix the issues and update the data for the next release. Currently, the only way to access release 5 data is via the FTP.
 
-#### New studes
+#### New studies
 * Bossini-Castillo_2019 - Regulatory T cells from 119 individuals
 * Gilchrist_2021 - NK cells from 247 individuals (microarray)
 
