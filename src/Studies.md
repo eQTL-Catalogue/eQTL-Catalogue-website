@@ -77,6 +77,7 @@ Although we generally prefer to reprocess all studies incldued in the eQTL Catal
 | Study | Cell types or tissues | Conditions | Samples | Donors | Quantification | Raw expression data | Raw genotype data | Summary statistics source |
 |---|---|---|---|---|---|---|---|---|---|
 [GTEx_v8](http://dx.doi.org/10.1038/s41467-018-04365-8) | 49 tissues |  | 17382 | 948 | gene expression | [phs000424.v8.p2](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000424.v8.p2) | [phs000424.v8.p2](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000424.v8.p2) | [Google Cloud](gs://gtex-resources/GTEx_Analysis_v8_QTLs/GTEx_Analysis_v8_eQTL_all_associations) |
+MetaLCL | LCLs[^2] |  | 3734 | 3734 | gene expression | TBA | TBA |  |
 
 [^1]: induced pluripotent stem cells
 [^2]: lymphoblastoid cell lines
