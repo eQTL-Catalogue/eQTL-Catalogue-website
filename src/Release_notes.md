@@ -7,6 +7,12 @@ order: 8
 
 ## Release notes
 
+### New visualisations in the eQTL Catalogue Browser - October 2024
+
+The [ELIXIR-Estonia eQTL Catalogue Browser](https://elixir.ut.ee/eqtl/) can now be used to visualise splicing QTLs. Check out this [tutorial](https://www.youtube.com/watch?v=qS8coZFjUz4) to get started!
+
+[![Splicing visualisation in eQTL Catalogue](static/OAS1_splicing.jpg)](https://www.youtube.com/watch?v=qS8coZFjUz4)
+
 ### eQTL Catalogue release 7 - June 2024
 
 Release 7 brings ten new datasets, including six uniformly processed single-cell eQTL datasets. All single-cell RNA-seq datasets were requantified with alevin-fry. After conversion to pseudobulk and normalisation, eQTL analysis was performed with [eQTL-Catalogue/qtlmap](https://github.com/eQTL-Catalogue/qtlmap).
