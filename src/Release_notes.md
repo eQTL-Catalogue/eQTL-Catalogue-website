@@ -11,7 +11,7 @@ order: 8
 
 The [ELIXIR-Estonia eQTL Catalogue Browser](https://elixir.ut.ee/eqtl/) can now be used to visualise splicing QTLs. Check out this [tutorial](https://www.youtube.com/watch?v=qS8coZFjUz4) to get started!
 
-[![Splicing visualisation in eQTL Catalogue](static/OAS1_splicing.jpg)](https://www.youtube.com/watch?v=qS8coZFjUz4)
+[![Splicing visualisation in eQTL Catalogue](../static/OAS1_splicing.jpg)](https://www.youtube.com/watch?v=qS8coZFjUz4)
 
 ### eQTL Catalogue release 7 - June 2024
 

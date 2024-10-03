@@ -49,13 +49,6 @@ ELIXIR-Estonia has developed an interactive [credible set browser](https://elixi
 
 Complete fine mapping results can be downloaded from our [FTP](ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL/credible_sets/).
 
-### FIVEx eQTL browser
-The eQTL Catalogue gene expression and splicing QTLs from release 3 can be visualised with the [FIVEx eQTL browser](https://fivex.sph.umich.edu/).
-
-<img src="../static/HAL.png" alt="HAL locus in the FIVEx browser" width="456" height="460"/>
-
-FIVEx has been developed at the University of Michigan. If you use FIVEx, please cite their [paper](https://doi.org/10.1093/bioinformatics/btab614). 
-
 ## Tutorials
 
 * [Fetching summary statistics and performing colocalisation with eQTL Catalogue API v2](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/blob/master/tutorials/API_v2/eQTL_API_tutorial.md)
