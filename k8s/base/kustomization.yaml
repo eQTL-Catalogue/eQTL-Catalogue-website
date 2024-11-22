@@ -1,4 +1,8 @@
-commonLabels:
-  app: ensembl-eqtl
-bases:
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+labels:
+- includeSelectors: true
+  pairs:
+    app: ensembl-eqtl
+resources:
   - deployment.yaml
