@@ -8,12 +8,9 @@ before_script:
   - export CI_COMMIT_SHA_SHORT=${CI_COMMIT_SHA::8}
   - export IMAGE_NAME=$CI_REGISTRY/$CI_PROJECT_PATH:$CI_COMMIT_SHORT_SHA-$CI_PIPELINE_ID
 
-# include:
-#   - template: Container-Scanning.gitlab-ci.yml
-
 stages:
   - build
-#   - test
+  - test
   - deploy
 
 build:
@@ -25,9 +22,7 @@ build:
     - docker build -t $IMAGE_NAME .
     - docker push $IMAGE_NAME
 
-# container_scanning:
-#   tags:
-#     - dind2
+
 container_scanning:
   stage: test
   tags:
