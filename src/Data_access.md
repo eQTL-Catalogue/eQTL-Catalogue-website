@@ -66,7 +66,3 @@ Multi-allelic variants are included in the analysis, but they are split over mul
 
 #### Do you also map QTLs on the X chromsome?
 X chromosome QTLs were added in release 5. List of studies with X chromosome QTLs can be found [here](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/blob/master/data_tables/chrX_genotypes.tsv).
-
-## Expression Atlas
-
-On the [dataset tab]({{ site.domain }}{{ site.baseurl }}/Datasets/), follow the links to Expression Atlas studies.
