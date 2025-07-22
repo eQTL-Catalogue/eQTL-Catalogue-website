@@ -23,7 +23,7 @@ A complete explanation can be found in our [flagship paper](https://doi.org/10.1
 Access our results
 ------------------
 
-You can [access our results]({{ site.domain }}{{ site.baseurl }}/Data_access/) via FTP in CSV and HDF5 formats, or query part of our data via our RESTful API. Our results are also displayed on the [Open Targets Genetics Portal](https://genetics.opentargets.org/). More information on our re-use policy is on [the License tab]({{site.domain}}{{site.baseurl}}/License).
+You can [access our results]({{ site.domain }}{{ site.baseurl }}/Data_access/) via FTP in CSV and HDF5 formats, or query part of our data via our RESTful API. Our results are also displayed on the [Open Targets Platform](https://platform.opentargets.org/). More information on our re-use policy is on [the License tab]({{site.domain}}{{site.baseurl}}/License).
 
 Let us know what you think! 
 ---------------------------
