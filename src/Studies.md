@@ -40,6 +40,8 @@ QTS000003 | [Bossini-Castillo_2019](https://doi.org/10.1016/j.xgen.2022.100117) 
 QTS000032 | [Aygün_2021](https://doi.org/10.1016/j.ajhg.2021.07.011) | neurons, neural progenitors | | 158 | 85 | [phs002493.v1.p1](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002493.v1.p1) | [phs002493.v1.p1](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002493.v1.p1) | |
 QTS000033 | [PISA](https://doi.org/10.1016/j.celrep.2021.109807) | pancreatic islets | | 127 | 127 | [EGAD00001007990](https://www.ebi.ac.uk/ega/datasets/EGAD00001007990) | [EGAD00010002218](https://www.ebi.ac.uk/ega/datasets/EGAD00010002218) | |
 QTS000034 | [Walker_2019](https://doi.org/10.1016/j.cell.2019.09.021) | neocortex | | 211 | 211 | [phs001900](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001900) | [phs001900](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001900) | |
+QTS000053 | [INTERVAL_RNA](https://doi.org/10.1038/s41588-025-02096-3) | blood | | 4729 | 4729 | [EGAD00001008015](https://ega-archive.org/datasets/EGAD00001008015) | [link](https://www.donorhealth-btru.nihr.ac.uk/research/blood-donors-bioresource/) | |
+QTS000054 | [INTERVAL_RNA_WGS](https://doi.org/10.1016/j.ajhg.2024.06.017) | blood | | 2892 | 2892 | [EGAD00001008015](https://ega-archive.org/datasets/EGAD00001008015) | [link](https://www.donorhealth-btru.nihr.ac.uk/research/blood-donors-bioresource/) | |
 
 ### Single-cell RNA-seq studies
 
