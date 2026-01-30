@@ -53,6 +53,12 @@ QTS000054 | [INTERVAL_RNA_WGS](https://doi.org/10.1016/j.ajhg.2024.06.017) | blo
 | QTS000039 | [Jerber_2021](https://doi.org/10.1038/s41588-021-00801-6) | dopaminergic neurons | rotenone | 194 | [EGAD00001006157](https://ega-archive.org/datasets/EGAD00001006157); [PRJEB38269](https://www.ebi.ac.uk/ena/browser/view/PRJEB38269) | [EGAD00010001147](https://www.ebi.ac.uk/ega/datasets/EGAD00010001147); [PRJEB11752](https://www.ebi.ac.uk/ena/data/view/PRJEB11752) |
 | QTS000040 | [Nathan_2022](https://doi.org/10.1038/s41586-022-04713-1) | T-cells |  | 249 | [phs002467](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002467) | [phs002025](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002025) |
 | QTS000041 | [Cytoimmgen](https://doi.org/10.1038/s41588-022-01066-3) | T-cells | anti-CD3-CD28 | 106 | [EGAD00001008197](https://ega-archive.org/datasets/EGAD00001008197) | [EGAD00010002291](https://ega-archive.org/datasets/EGAD00010002291) |
+| QTS000046 | [Randoplh_2021_reannotated](https://doi.org/10.1126/science.abg0928) | PBMC | flu | 89 | [GSE162632](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE162632) | [PRJNA736483](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA736483)|
+| QTS000047 | [Perez_2022_reannotated](https://doi.org/10.1126/science.abf1970) | PBMC | lupus | 193 | [GSE137029](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE137029) | [phs002812.v1.p1](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002812.v1.p1) |
+| QTS000048 | [OneK1K_reannotated](https://doi.org/10.1126/science.abf3041) | PBMC |  | 981 | [GSE196830](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE196830) | [Zenodo](https://zenodo.org/records/7619796) |
+| QTS000049 | [Nathan_2022_reannotated](https://doi.org/10.1038/s41586-022-04713-1) | T-cells |  | 249 | [phs002467](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002467) | [phs002025](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002025) |
+| QTS000050 | [Cytoimmgen_reannotated](https://doi.org/10.1038/s41588-022-01066-3) | T-cells | anti-CD3-CD28 | 106 | [EGAD00001008197](https://ega-archive.org/datasets/EGAD00001008197) | [EGAD00010002291](https://ega-archive.org/datasets/EGAD00010002291) |
+
 
 ### Microarray studies
 
