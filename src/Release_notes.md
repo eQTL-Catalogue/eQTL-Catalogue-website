@@ -7,6 +7,32 @@ order: 8
 
 ## Release notes
 
+### eQTL Catalogue r8 pre-release - January 2026
+
+We are happy to announce eQTL Catalogue r8 pre-release, highlighting some of the updates planned for the next major release scheduled for Q3 2026.
+
+The r8 pre-release brings several important updates, including:
+* Quantifying splicing and intron retention from bulk RNA-seq with [MAJIQ v3](https://www.biorxiv.org/content/10.1101/2024.07.02.601792v1)
+* Migrating bulk files in the FTP server from tabix-indexed TSVs to parquet format.
+* Improved handling of gene expression covariates in association testing to increase statistical power.
+* Re-designed single-cell RNA-seq processing and eQTL mapping workflows, as described in this [preprint]().
+
+The metadata for the studies and datasets included in r8 pre-release can be found [here](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/blob/master/data_tables/dataset_metadata_r8_beta.tsv). The work to re-process all existing eQTL Catalogue studies with the updated workflows is currently ongoing. 
+
+#### New bulk studies
+* QTS000053 (INTERVAL_RNA) - whole blood from 4,729 individuals (imputed array genotypes)
+* QTS000054 (INTERVAL_RNA_WGS) - whole blood from 2,892 individuals (WGS genotypes)
+These two studies now include MAJIQ V3 as one of the quantification methods (QTD001002 and QTD001002).
+
+#### New single-cell studies
+* QTS000046 (Randolph_2021_reannotated) - peripheral blood mononuclear cells (PBMCs) from 89 donors
+* QTS000047 (Perez_2022_reannotated) - PBMCs from lupus cases and controls (193 donors)
+* QTS000048 (OneK1K_reannotated) - PBMCs from 981 donors
+* QTS000049 (Nathan_2022_reannotated) - T-cells from 249 donors
+* QTS000050 (Cytoimmgen_reannotated) - naive and stimulated T-cells from 106 donors
+
+These five blood single-cell eQTL studies are based on the same underlying raw data as QTS000036-41 in eQTL Catalogue r7, but they have now been re-processed with our new [eQTL-Catalogue/scQC](https://github.com/eQTL-Catalogue/scQC) workflow and cell types have been re-annotated with [eQTL-Catalogue/celltypist](https://github.com/eQTL-Catalogue/celltypist). See the [preprint]() for more details.
+
 ### New visualisations in the eQTL Catalogue Browser - October 2024
 
 The [ELIXIR-Estonia eQTL Catalogue Browser](https://elixir.ut.ee/eqtl/) can now be used to visualise splicing QTLs. Check out this [tutorial](https://www.youtube.com/watch?v=qS8coZFjUz4) to get started!
@@ -24,7 +50,7 @@ Release 7 brings ten new datasets, including six uniformly processed single-cell
 * QTS000042 (Kim-Hellmuth_2017) - naive and stimulated monocytes from 96 donors (microarray)
 
 #### New single-cell studies
-* QTS000036 (Randolph_2021) - pheripheral blood mononuclear cells (PBMCs) from 89 donors
+* QTS000036 (Randolph_2021) - peripheral blood mononuclear cells (PBMCs) from 89 donors
 * QTS000037 (Perez_2022) - PBMCs from lupus cases and controls (193 donors)
 * QTS000038 (OneK1K) - PBMCs from 981 donors
 * QTS000039 (Jerber_2021) - dopaminergic neuron differentiation from 194 donors
