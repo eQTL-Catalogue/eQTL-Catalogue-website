@@ -11,13 +11,11 @@ order: 4
 
 On our [FTP site](http://ftp.ebi.ac.uk/pub/databases/spot/eQTL) you will find both tab-delimited flat files as well as HDF5 files.
 
-The metadata for all uniformly processed datasets can be found [here](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/blob/master/data_tables/dataset_metadata.tsv).
+The metadata for all uniformly processed datasets can be found [here](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/blob/master/data_tables/dataset_metadata_r7.tsv).
 
 The URLs of all individual tab-delimited files together with metadata can be found [here](https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/tabix/).
 
 Fine mapping results can be downloaded from [here](http://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/).
-
-QTL coverage plots can be downloaded from here [here](http://ftp.ebi.ac.uk/pub/databases/spot/eQTL/coverage_plots/)
 
 All file formats are explained [here](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/blob/master/tabix/Columns.md).
 
