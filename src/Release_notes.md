@@ -14,7 +14,7 @@ We are happy to announce eQTL Catalogue r8 pre-release, highlighting some of the
 The r8 pre-release brings several important updates, including:
 * Quantifying splicing and intron retention from bulk RNA-seq with [MAJIQ v3](https://www.biorxiv.org/content/10.1101/2024.07.02.601792v1).
 * Migrating bulk files in the FTP server from tabix-indexed TSVs to parquet format.
-* Improved handling of gene expression covariates in association testing to increase statistical power.
+* Optimised handling of molecular trait prinicipal components as covariates in association testing to increase statistical power ([link](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/blob/master/tutorials/choosing_n_pheno_pcs.txt)).
 * Re-designed single-cell RNA-seq processing and eQTL mapping workflows, as described in this [preprint]().
 
 The metadata for the studies and datasets included in r8 pre-release can be found [here](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/blob/master/data_tables/dataset_metadata_r8_beta.tsv) and the processed data can be downloaded from [here](https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/r8_beta/). The work to re-process all existing eQTL Catalogue studies with the updated workflows is currently ongoing. 
