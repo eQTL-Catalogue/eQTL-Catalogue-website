@@ -22,6 +22,7 @@ The metadata for the studies and datasets included in r8 pre-release can be foun
 #### New bulk studies
 * QTS000053 (INTERVAL_RNA) - whole blood from 4,729 individuals (imputed array genotypes)
 * QTS000054 (INTERVAL_RNA_WGS) - whole blood from 2,892 individuals (WGS genotypes)
+
 These two studies now include MAJIQ V3 as one of the quantification methods (QTD001002 and QTD001002).
 
 #### New single-cell studies
