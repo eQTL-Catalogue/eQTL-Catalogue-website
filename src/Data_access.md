@@ -37,7 +37,7 @@ However, please note that frequent tabix requests to the FTP server are sometime
 
 ### RESTful API
 
-You can query eQTL summary statistics datasets using our [RESTful API]({{ site.domain }}{{ site.baseurl }}/api/docs). See [documentation]({{ site.domain }}{{ site.baseurl }}/api/docs) and a [tutorial](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/blob/master/tutorials/API_v2/eQTL_API_tutorial.md) for more details.
+The RESTful API has now been deprecated and is no longer available.
 
 ### ELIXIR-Estonia credible set browser
 ELIXIR-Estonia has developed an interactive [credible set browser](https://elixir.ut.ee/eqtl/), where you can quickly check if your variant of interest is likely to be a causal eQTL variant. 
@@ -49,7 +49,6 @@ Complete fine mapping results can be downloaded from our [FTP](ftp://ftp.ebi.ac.
 
 ## Tutorials
 
-* [Fetching summary statistics and performing colocalisation with eQTL Catalogue API v2](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/blob/master/tutorials/API_v2/eQTL_API_tutorial.md)
 * [Using tabix in R to fetch summary statistics and perform colocalisation](http://htmlpreview.github.io/?https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/tutorials/tabix_use_case.html)
 
 ## Frequently Asked Questions (FAQ)
