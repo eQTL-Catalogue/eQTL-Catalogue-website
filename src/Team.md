@@ -12,18 +12,19 @@ Contact us all at [eqtlcatalogue@ebi.ac.uk](mailto:eqtlcatalogue@ebi.ac.uk).
 
 ### University of Tartu
 - [Kaur Alasoo](https://kauralasoo.github.io/)
-- [Ivan Kuzmin](https://www.etis.ee/CV/inkuzmin/est?lang=ENG&tabId=CV_ENG)
-- [Ralf Tambets](https://www.etis.ee/Portal/Persons/Display/6a75ed3d-4c50-4d8f-9198-6f4a211ff228?tabId=CV_ENG)
+- [Ivan Kuzmin](https://www.etis.ee/CV/inkuzmin/eng/)
+- [Ralf Tambets](https://www.etis.ee/CV/Ralf_Tambets/eng/)
 - [Uku Raudvere](https://www.etis.ee:2443/CV/Uku_Raudvere/eng/)
-- [Peep Kolberg](https://orcid.org/0000-0001-8898-8153)
+- [Peep Kolberg](https://www.etis.ee/CV/Peep_Kolberg/eng/)
 - Sariyya Abdullayeva
+- [Nurlan Kerimov](https://github.com/kerimoff)
+- [Dzvinka Yarish](https://www.etis.ee/CV/Dzvenymyra-Marta_Yarish/eng/)
 
 
 ### European Bioinformatics Institute
 - [Helen Parkinson](https://www.ebi.ac.uk/about/people/helen-parkinson)
-- [Karatug Ozan Bircan](https://www.ebi.ac.uk/people/person/karatug-ozan-bircan/)
 - [Laura Harris](https://www.ebi.ac.uk/people/person/laura-harris/)
-- [Abayomi Mosaku](https://www.ebi.ac.uk/people/person/abayomi-mosaku/)
+- [Benjamin Wingfield](https://www.ebi.ac.uk/people/person/benjamin-wingfield/)
 
 Previous members
 ---------
@@ -33,9 +34,10 @@ Previous members
 - [Kateryna Peikova](https://www.linkedin.com/in/peikovakateryna)
 - [James Hayhurst](https://www.ebi.ac.uk/about/people/james-hayhurst)
 - [Irene Papatheodorou](https://www.ebi.ac.uk/about/people/irene-papatheodorou)
-- [Nurlan Kerimov](https://github.com/kerimoff)
 - [Jonathan Manning](https://www.ebi.ac.uk/about/people/jonathan-manning)
 - [Tony Burdett](https://www.ebi.ac.uk/about/people/tony-burdett)
+- [Abayomi Mosaku](https://www.ebi.ac.uk/people/person/abayomi-mosaku/)
+- [Karatug Ozan Bircan](https://www.ebi.ac.uk/people/person/karatug-ozan-bircan/)
 
 
 Contributors
