@@ -59,7 +59,7 @@ QTS000044 | [MAGE](https://doi.org/10.1038/s41586-024-07708-2) | LCLs[^2] | | 67
 | QTS000048 | [OneK1K_reannotated](https://doi.org/10.1126/science.abf3041) | PBMC |  | 981 | [GSE196830](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE196830) | [Zenodo](https://zenodo.org/records/7619796) |
 | QTS000049 | [Nathan_2022_reannotated](https://doi.org/10.1038/s41586-022-04713-1) | T-cells |  | 249 | [phs002467](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002467) | [phs002025](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002025) |
 | QTS000050 | [Cytoimmgen_reannotated](https://doi.org/10.1038/s41588-022-01066-3) | T-cells | anti-CD3-CD28 | 106 | [EGAD00001008197](https://ega-archive.org/datasets/EGAD00001008197) | [EGAD00010002291](https://ega-archive.org/datasets/EGAD00010002291) |
-| QTS000045 | [IBDverse](https://doi.org/10.1038/s41588-022-01066-3) | intestinal biopsies, blood |  | 421 | [EGAD00001015692](https://ega-archive.org/datasets/EGAD00001015692) | [EGAD00001016069](https://ega-archive.org/datasets/EGAD00001016069) |
+| QTS000045 | [IBDverse](https://doi.org/10.1038/s41586-026-10627-z) | intestinal biopsies, blood |  | 421 | [EGAD00001015692](https://ega-archive.org/datasets/EGAD00001015692) | [EGAD00001016069](https://ega-archive.org/datasets/EGAD00001016069) |
 
 
 ### Microarray studies
