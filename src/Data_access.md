@@ -15,9 +15,12 @@ The metadata for all uniformly processed datasets can be found here: [release 7]
 
 The URLs of all individual tab-delimited files together with metadata can be found [here](https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/tabix/).
 
-Fine mapping results can be downloaded from [here](http://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/).
-
 All file formats are explained [here](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/blob/master/tabix/Columns.md).
+
+### Fine-mapped credible sets
+Fine mapping results for individual datasets can be downloaded from here: [release 7](http://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/), [pre-release 8](https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/r8_beta/susie/).
+
+Merged credible set files for all quantification methods can be downloaded from here: [pre-release 8](https://zenodo.org/records/22846842).
 
 ### Tabix
 
