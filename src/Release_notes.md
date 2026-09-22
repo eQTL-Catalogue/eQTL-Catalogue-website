@@ -7,9 +7,22 @@ order: 8
 
 ## Release notes
 
+### eQTL Catalogue r8 pre-release - September 2026 update
+
+The final eQTL Catalogue r8 release is now scheduled for December 2026. In the meantime, we are happy to announce that we have just added three more studies to the eQTL Catalogue r8 pre-release.
+
+#### New bulk studies
+* QTS000015 (GTEx_v10) - dataset ids have remained the same, but sample sizes have increased on average ~20% per tissue compared to GTEx v8.
+* QTS000044 (MAGE) - [Multi-Ancestry Analysis of Gene Expression](https://doi.org/10.1038/s41586-024-07708-2)
+
+#### New single-cell studies
+* QTS000044 (IBDverse) - [Cell-type-resolved genetic variation shapes inflammatory bowel disease risk](https://doi.org/10.1038/s41586-026-10627-z)
+
+The metadata for these studies can be found [here](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/blob/master/data_tables/dataset_metadata_r8_beta.tsv).
+
 ### eQTL Catalogue r8 pre-release - January 2026
 
-We are happy to announce eQTL Catalogue r8 pre-release, highlighting some of the updates planned for the next major release scheduled for Q3 2026.
+We are happy to announce eQTL Catalogue r8 pre-release, highlighting some of the updates planned for the next major release scheduled for Q4 2026.
 
 The r8 pre-release brings several important updates, including:
 * Quantifying splicing and intron retention from bulk RNA-seq with [MAJIQ v3](https://www.biorxiv.org/content/10.1101/2024.07.02.601792v1).

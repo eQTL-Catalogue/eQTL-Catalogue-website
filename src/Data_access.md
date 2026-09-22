@@ -11,7 +11,7 @@ order: 4
 
 On our [FTP site](http://ftp.ebi.ac.uk/pub/databases/spot/eQTL) you will find both tab-delimited flat files as well as HDF5 files.
 
-The metadata for all uniformly processed datasets can be found [here](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/blob/master/data_tables/dataset_metadata_r7.tsv).
+The metadata for all uniformly processed datasets can be found here: [release 7](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/blob/master/data_tables/dataset_metadata_r7.tsv), [pre-release 8](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/blob/master/data_tables/dataset_metadata_r8_beta.tsv).
 
 The URLs of all individual tab-delimited files together with metadata can be found [here](https://github.com/kauralasoo/eQTL-Catalogue-resources/blob/master/tabix/).
 
