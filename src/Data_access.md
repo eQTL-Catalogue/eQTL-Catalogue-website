@@ -66,3 +66,6 @@ Multi-allelic variants are included in the analysis, but they are split over mul
 
 #### Do you also map QTLs on the X chromsome?
 X chromosome QTLs were added in release 5. List of studies with X chromosome QTLs can be found [here](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/blob/master/data_tables/chrX_genotypes.tsv).
+
+#### Can you provide access to additional data not described on this page?
+We often get requests to access additional data that are not available from our FTP server or the credible set browser. Most commonly, these involve full nominal summary statistics for all tested exons or leafcutter junctions in a subset of eQTL Catalogue tissues or datasets. Unfortunately, we do not store these results long term due to space constraints, and we are thus unable to respond to such individual _ad hoc_ requests.
